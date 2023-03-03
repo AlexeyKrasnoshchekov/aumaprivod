@@ -1,0 +1,36 @@
+.card {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(white, #006EAF);;
+    color: var(--white);
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
+    /* border-radius: 10px; */
+}
+.card:hover {
+    background: linear-gradient(white, #006EAF);
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 0.8rem;
+    background: none;
+    background-color: #006EAB;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1400px) {
+    .normalSize {
+        width: 7.5rem;
+        height: 7.5rem;
+        font-size: var(--norm);
+    }
+
+}
