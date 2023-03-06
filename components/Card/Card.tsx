@@ -48,12 +48,14 @@ const Card = ({
             </span>
           )}
           {icon !== 'none' && icon === 'rychag' && (
-            <Image
-              src={'/images/privod_cards/rychag.png'}
-              alt="РЫЧАЖНЫЕ ПРИВОДЫ"
-              width={60}
-              height={60}
-            />
+            <span className={styles.icon}>
+              <Image
+                src={'/images/privod_cards/rychag.png'}
+                alt="РЫЧАЖНЫЕ ПРИВОДЫ"
+                width={60}
+                height={60}
+              />
+            </span>
           )}
           {icon !== 'none' && icon === 'nepoln_red' && (
             <span className={styles.icon}>

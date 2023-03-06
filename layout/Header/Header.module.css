@@ -8,6 +8,7 @@
     color: var(--white);
     /* background-color: #F5F5F5; */
     background-color: white;
+    /* background: linear-gradient( to top, #fff, #3A3A3A); */
 }
 
 .headerAddress {
@@ -32,15 +33,29 @@
     font-size: 1.3em;
     align-items: center;
     justify-content: center;
+    /* background-color: var(--secondary); */
+    background: linear-gradient(  #006EAF, #fff);
+    clip-path: polygon(0 0, 100% 0, 92% 50%, 100% 100%, 0 100%, 7% 50%);
+}
+.headerCenter span {
+    color: var(--secondary);
 }
 
 .headerLink {
+    color: var(--white);
+}
+.headerLink:hover {
     color: var(--main);
 }
 .headerRight {
     grid-area: headerRight;
     display: flex;  
     align-items: center; 
+    justify-content: center;
+    color: var(--secondary);
+    font-size: var(--xl);
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .headerRight p {

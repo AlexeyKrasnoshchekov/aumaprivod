@@ -3,7 +3,7 @@
     min-height: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px 40px;
-    padding: 15px 5rem;
+    padding: 20px 5rem;
     padding-left: calc(5rem - 5px);
 
     background-color: var(--main);
@@ -17,6 +17,15 @@
 }
 .footerRight {
     justify-self: flex-end;
+}
+.footerRight span:first-child {
+    margin-bottom: 10px;
+}
+.footerLeft span:first-child {
+    margin-bottom: 10px;
+}
+.footerCenter div:first-child {
+    margin-bottom: 10px;
 }
 .footerCenter {
     display: flex;

@@ -13,12 +13,11 @@ import {
 import Card from '@/components/Card/Card';
 
 const imagesCarousel = [
-  '/images/111.png',
-  '/images/222.png',
-  '/images/333.png',
-  '/images/444.png',
-  '/images/555.png',
-  '/images/777.png',
+  '/images/oil_and_gas.png',
+  '/images/regulation.png',
+  '/images/prom.png',
+  '/images/automatic.png',
+  '/images/temperature.png'
 ];
 
 function Home({ posts, className, ...props }: any): JSX.Element {
