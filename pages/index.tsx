@@ -17,7 +17,7 @@ const imagesCarousel = [
   '/images/regulation.png',
   '/images/prom.png',
   '/images/automatic.png',
-  '/images/temperature.png'
+  '/images/temperature.png',
 ];
 
 function Home({ posts, className, ...props }: any): JSX.Element {
@@ -31,12 +31,16 @@ function Home({ posts, className, ...props }: any): JSX.Element {
       </Head>
       <div className={cn(className, styles.bodyWrapper)} {...props}>
         <div className={styles.bodyLeft}>
-          <Card type="privod" icon="mnogo">
-            Многооборотные приводы
-          </Card>
-          <Card type="privod" icon="controls">
-            Средства управления
-          </Card>
+          <Link href={'/mnogo'}>
+            <Card type="privod" icon="mnogo">
+              Многооборотные приводы
+            </Card>
+          </Link>
+          <Link href={'/controls'}>
+            <Card type="privod" icon="controls">
+              Средства управления
+            </Card>
+          </Link>
         </div>
         <div className={styles.bodyCenter}>
           <Carousel
@@ -72,27 +76,39 @@ function Home({ posts, className, ...props }: any): JSX.Element {
           </Carousel>
         </div>
         <div className={styles.bodyRight}>
-          <Card type="privod" icon="nepoln">
-            Неполнооборотные приводы
-          </Card>
-          <Card type="privod" icon="pryamo">
-            Прямоходные приводы
-          </Card>
+          <Link href={'/nepoln'}>
+            <Card type="privod" icon="nepoln">
+              Неполнооборотные приводы
+            </Card>
+          </Link>
+          <Link href={'/pryamo'}>
+            <Card type="privod" icon="pryamo">
+              Прямоходные приводы
+            </Card>
+          </Link>
         </div>
       </div>
       <div className={styles.cards}>
-        <Card type="privod" icon="rychag_red">
-          Рычажные редукторы
-        </Card>
-        <Card type="privod" icon="rychag">
-          Рычажные приводы
-        </Card>
-        <Card type="privod" icon="nepoln_red">
-          Неполнооборотные редукторы
-        </Card>
-        <Card type="privod" icon="mnogo_red">
-          Многооборотные редукторы
-        </Card>
+        <Link href={'/rychag-red'}>
+          <Card type="privod" icon="rychag_red">
+            Рычажные редукторы
+          </Card>
+        </Link>
+        <Link href={'/rychag'}>
+          <Card type="privod" icon="rychag">
+            Рычажные приводы
+          </Card>
+        </Link>
+        <Link href={'/nepoln-red'}>
+          <Card type="privod" icon="nepoln_red">
+            Неполнооборотные редукторы
+          </Card>
+        </Link>
+        <Link href={'/mnogo-red'}>
+          <Card type="privod" icon="mnogo_red">
+            Многооборотные редукторы
+          </Card>
+        </Link>
       </div>
       <div className={styles.bodyInner}>
         <div className={styles.bodyNews}>
@@ -119,9 +135,9 @@ function Home({ posts, className, ...props }: any): JSX.Element {
         </div>
         <div className={styles.bodyCompany}>
           <p className={styles.textMain}>
-            ООО «АумаПриводСервис» представляет на Российском рынке оборудование
-            фирмы AUMA Riester GmbH (Германия) - мирового лидера в производстве
-            электроприводов и средств управления запорно-регулирующей арматурой.
+            Компания ООО «АумаПриводСервис» с 2007 года занимается продажами,
+            сервисным обслуживанием и технической поддержкой оборудования
+            компании AUMA Riester GmbH» Германия
           </p>
           <p className={styles.text}>
             Многолетний опыт работы с российскими и зарубежными производителями

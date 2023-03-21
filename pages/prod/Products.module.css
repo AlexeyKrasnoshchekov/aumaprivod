@@ -1,0 +1,84 @@
+.wrapper {
+    font-size: 16px;
+    /* padding: 0 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid blue;
+}
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+.parag {
+    margin: 0;
+    padding: 0;
+}
+/* .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+} */
+.screen {
+    min-height: 50vh;
+    width: 100%;
+    outline: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.screenLeft {
+    align-items: flex-start;
+}
+.screenRight {
+    align-items: flex-end;
+}
+.screenInner {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid yellow;
+    padding: 3%;
+    
+}
+.screenMiddle {
+    display: flex;
+}
+.backImage {
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* right: 50; */
+    background-size:contain;
+    /* min-height: 100vh; */
+    background-attachment: fixed;
+    right: 230px;
+}
+.backImage2 {
+    background-repeat: no-repeat;
+    background-position: left center;
+    /* right: 50; */
+    background-size:contain;
+    /* min-height: 100vh; */
+    background-attachment: fixed;
+    right: 230px;
+}
+.link {
+
+}
+.linearToLeft {
+    background: linear-gradient(to left, transparent, #006EAB);
+}
+.linearToRight {
+    background: linear-gradient(to right, transparent, #006EAB);
+}
+.backgroundColor {
+    background-color: #006EAB;
+}
