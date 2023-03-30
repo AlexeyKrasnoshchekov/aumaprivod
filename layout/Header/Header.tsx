@@ -4,8 +4,11 @@ import cn from 'classnames';
 import { HeaderProps } from './Header.props';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Header = ({ className, ...props }: HeaderProps) => {
+  const router = useRouter();
+
   return (
     <>
       <div className={cn(className, styles.headerWrapper)} {...props}>
@@ -35,16 +38,16 @@ const Header = ({ className, ...props }: HeaderProps) => {
         </div>
         <div className={styles.headerRight}>Электроприводы AUMA</div>
         <div className={styles.headerMenu}>
-          <Link href={'/company'}>
+          <Link href={'/company'} style={{backgroundColor: router.pathname === '/company' ? '#3A3A3A' : '#006EAB'}}>
             <div className={styles.headerMenuItem}>Компания</div>
           </Link>
-          <Link href={'/prod'}>
+          <Link href={'/prod'} style={{backgroundColor: router.pathname === '/prod' ? '#3A3A3A' : '#006EAB'}}>
             <div className={styles.headerMenuItem}>Продукция</div>
           </Link>
-          <Link href={'/docs'}>
+          <Link href={'/docs'} style={{backgroundColor: router.pathname === '/docs' ? '#3A3A3A' : '#006EAB'}}>
             <div className={styles.headerMenuItem}>Документация</div>
           </Link>
-          <Link href={'/contacts'}>
+          <Link href={'/contacts'} style={{backgroundColor: router.pathname === '/contacts' ? '#3A3A3A' : '#006EAB'}}>
             <div className={styles.headerMenuItem}>Контакты</div>
           </Link>
         </div>

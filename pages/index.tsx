@@ -112,15 +112,18 @@ function Home({ posts, className, ...props }: any): JSX.Element {
       </div>
       <div className={styles.bodyInner}>
         <div className={styles.bodyNews}>
-          <h4
-            style={{
-              fontSize: '1.2rem',
-              margin: '0',
-              textTransform: 'uppercase',
-            }}
-          >
-            Новости
-          </h4>
+          <Link href={'/news'}>
+            <h4
+              className={styles.newsHeader}
+              style={{
+                fontSize: '1.2rem',
+                margin: '0',
+                textTransform: 'uppercase',
+              }}
+            >
+              Новости
+            </h4>
+          </Link>
           {posts &&
             posts.map((post: Post) => (
               <div key={post.id} className={styles.newsTitleWrapper}>
@@ -219,7 +222,7 @@ export async function getStaticProps() {
     .sort((a: Post, b: Post) => {
       return new Date(b.date).getTime() - new Date(a.date).getTime();
     })
-    .slice(0, 3);
+    .slice(0, 2);
 
   return {
     props: convData,

@@ -1,0 +1,32 @@
+.wrapper {
+    font-size: 16px;
+    /* padding: 0 10%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "surgut omsk"
+    "tyumen irkutsk";
+    padding: 3rem 0;
+    gap: 2rem 2rem;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.surgut {
+    grid-area: surgut;
+}
+.omsk {
+    grid-area: omsk;
+}
+.tyumen {
+    grid-area: tyumen;
+}
+.irkutsk {
+    grid-area: irkutsk;
+}
+.map {
+    margin-top: 1rem;
+}

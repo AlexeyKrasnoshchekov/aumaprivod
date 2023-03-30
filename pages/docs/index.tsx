@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import cn from 'classnames';
-import styles from './Company.module.css';
+import styles from './Docs.module.css';
 import { withLayout } from '@/layout/Layout';
 import { RiArrowRightSFill } from 'react-icons/ri';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
