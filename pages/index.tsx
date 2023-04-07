@@ -222,7 +222,7 @@ export async function getStaticProps() {
     .sort((a: Post, b: Post) => {
       return new Date(b.date).getTime() - new Date(a.date).getTime();
     })
-    .slice(0, 2);
+    .slice(objectData.posts.length - 3, objectData.posts.length - 1);
 
   return {
     props: convData,
