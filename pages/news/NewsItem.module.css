@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: calc(100vh - 16.85rem);   
+    min-height: calc(100vh - 15.85rem);   
+    line-height: 1.8rem;
 }
 .title{
     font-size: var(--xxxl);
+    text-align: center;
 }
 .innerWrapper {
     display: flex;
@@ -15,9 +17,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 5rem;
+    min-height: 7rem;
     max-height: 40rem;
-    min-width: 15rem;
+    min-width: 20rem;
     /* position: relative; */
 }
 .image{

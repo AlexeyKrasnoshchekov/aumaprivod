@@ -27,14 +27,6 @@ function Post(post: any) {
             })}
         </div>
         <div className={styles.textWrapper}>
-          {post.post.id === 5 && (
-            <div className={styles.waterHeading}>
-              <span>Мы рады представить Вам новый раздел нашего сайта:</span>
-              <Link className={styles.waterLink} href={'/otr/5'}>
-                Технологии очистки воды
-              </Link>
-            </div>
-          )}
           {htmlContent && htmlContent}
         </div>
       </div>

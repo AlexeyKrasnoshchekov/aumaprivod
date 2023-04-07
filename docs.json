@@ -1,0 +1,1250 @@
+{
+    "files":[
+    {
+      "id": 1,
+      "name": "Брошюры",
+      "files": [
+        {
+          "name": "AUMA INDUSTRY - Управление, регулирование, перекрытие – решение для автоматизации любой арматуры",
+          "url": "/images/docs/1/AUMA_INDUSTRY.pdf"
+        },
+        {
+          "name": "AUMA MARINE - Электроприводы для автоматизации арматуры гражданского судостроения",
+          "url": "/images/docs/1/AUMA_MARINE.pdf"
+        },
+        {
+          "name": "ЭЛЕКТРОПРИВОДЫ для постоянного применения под водой",
+          "url": "/images/docs/1/AUMA_continous.pdf"
+        },
+        {
+          "name": "ЭЛЕКТРОПРИВОДЫ для автоматизации промышленной арматуры",
+          "url": "/images/docs/1/AUMA_industrial.pdf"
+        },
+        {
+          "name": "ЭЛЕКТРОПРИВОДЫ для автоматизации арматуры в нефтяной и газовой промышленности",
+          "url": "/images/docs/1/AUMA_oil_gas.pdf"
+        },
+        {
+          "name": "ЭЛЕКТРОПРИВОДЫ для автоматизации арматуры на атомных электростанциях",
+          "url": "/images/docs/1/AUMA_nuclear.pdf"
+        },
+        {
+          "name": "ЭЛЕКТРОПРИВОДЫ С БЛОКОМ ОТКАЗОБЕЗОПАСНОСТИ для автоматического аварийного закрытия и открытия арматуры",
+          "url": "/images/docs/1/AUMA_fail_safe.pdf"
+        },
+        {
+          "name": "МНОГООБОРОТНЫЕ ЭЛЕКТРОПРИВОДЫ для автоматизации промышленной и специальной арматуры с крутящим моментом до 120 000 Нм",
+          "url": "/images/docs/1/AUMA_multi_turn.pdf"
+        },
+        {
+          "name": "ФУНКЦИОНАЛЬНАЯ БЕЗОПАСНОСТЬ – SIL Электроприводы с уровнем полноты безопасности до SIL 3",
+          "url": "/images/docs/1/AUMA_SIL.pdf"
+        },
+        {
+          "name": "Индикация положения для арматуры с ручным управлением. Концевые выключатели WSH 10.2 – WSH 16.2/WSHEx 10.2 – WSHEx 16.2",
+          "url": "/images/docs/1/AUMA_Position_indication.pdf"
+        },
+        {
+          "name": "Глобальная сеть сервисных центров. Полное техническое обслуживание",
+          "url": "/images/docs/1/Service_Worldwide.pdf"
+        },
+        {
+          "name": "Специалист по электроприводам. ГРУППА КОМПАНИЙ AUMA",
+          "url": "/images/docs/1/AUMA_expert.pdf"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Комплектующие",
+      "files": [
+        {
+          "name": "Блок отказобезопасности FQM 05.1 – FQM 12.1, FQMEx 05.1 – FQMEx 12.1",
+          "url": "/images/docs/2/Fail_safe_unit.pdf"
+        },
+        {
+          "name": "Фланец измерения крутящего момента DMF 10.1, DMF 14.5, DMF 16.1 для электроприводов AUMA SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2",
+          "url": "/images/docs/2/Torque_measurement.pdf"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Мастер-станция",
+      "files": [
+        {
+          "name": "Мастер-станция SIMA для AUMATIC – MODBUS DP, AUMA MATIC – MODBUS DP с MODBUS RTU, MODBUS/TCP к DCS",
+          "url": "/images/docs/2/Master_station_Modbus.pdf"
+        },
+        {
+          "name": "Мастер-станция SIMA для AUMATIC – PROFIBUS DP, AUMA MATIC – PROFIBUS DP с MODBUS RTU, MODBUS/TCP к DCS",
+          "url": "/images/docs/2/Master_station_Profibus.pdf"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Многооборотные приводы без блоков управления",
+      "files": [
+        {
+          "name": "Многооборотные приводы SAI 07.2 – SAI 16.2/SARI 07.2 – SARI 16.2 AUMA NORM (без блока управления) для атомных электростанций",
+          "url": "/images/docs/2/Drehantriebe.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2, AUMA NORM (без блока управления)",
+          "url": "/images/docs/2/Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 NORM.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 с панелью местного управления AUMA SEMIPACT SEM 01.1/SEM 02.1",
+          "url": "/images/docs/2/Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 NORM with local control unit AUMA SEMIPACT.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SA 07.1 – SA 48.1/SAR 07.1 – SAR 30.1 AUMA NORM",
+          "url": "/images/docs/2/Multi-turn actuators SA 25.1 - 48.1-SAR 25.1 - 30.1 NORM.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2AUMA NORM (без блока управления)",
+          "url": "/images/docs/2/Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 NORM.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 AUMA NORM",
+          "url": "/images/docs/2/Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 NORM.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 с панелью местного управления AUMA SEMIPACT SEMExC 01.1",
+          "url": "/images/docs/2/Multi-turn actuators SAEx2 07.2 - 16.2-SAREx 07.2 - 16.2 NORM with local control unit AUMA SEMIPACT SEMExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 AUMA NORM",
+          "url": "/images/docs/2/Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 NORM.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 с панелью местного управления AUMA SEMIPACT SEMExC 01.1",
+          "url": "/images/docs/2/Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 NORM with local control unit AUMA SEMIPACT SEMExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAI 07.1 – SAI 16.1/SARI 07.1 – SARI 16.1 (без блока управления электропривода) для атомных электростанций в соответствии с ТУ 3791-003-38959426-2007",
+          "url": "/images/docs/2/Multi-turn actuators SAI 07.1 – SAI 16.1-SARI 07.1 – SARI 16.1 NORM, nuclear power plants according to TU 3791-003-38959426-2007.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAI 25.1 – SAI 35.1/SARI 25.1 – SARI 30.1 (без блока управления электропривода) для атомных электростанций в соответствии с ТУ 3791-003-38959426-2007",
+          "url": "/images/docs/2/Multi-turn actuators SAI 25.1 – SAI 35-SARI 25 – SARI 30 NORM, nuclear power plants according to TU 3791-003-38959426-2007.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы для установки на атомных электростанциях под оболочкой SAI 6 - SAI 100/SARI 6 - SARI 100",
+          "url": "/images/docs/2/Multi-turn actuators SAI 6 - 100-SARI 6 - 100 NORM, nuclear power plants, inside containment.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы для установки на атомных электростанциях (вне оболочке) SAN 07.1 - SAN 25.1/SARN 07.1 - SARN 25.1",
+          "url": "/images/docs/2/Multi-turn actuators SAN 07.1 - 25.1-SARN 07.1 - 25.1 NORM, nuclear power plants, outside containment.pdf"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Неполнооборотные приводы без блоков управления",
+      "files": [
+        {
+          "name": "Неполнооборотные приводы SG 03.3 - 04.3 NORM",
+          "url": "/images/docs/2/Part-turn actuators SG 03.3 - 04.3 NORM.pdf"
+        },
+        {
+          "name": "Неполнооборотные приводы SG 05.1 – SG 12.1-SGR 05.1 – SGR 12.1 AUMA NORM (без блока управления)",
+          "url": "/images/docs/2/Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 NORM.pdf"
+        },
+        {
+          "name": "Неполноповоротные электроприводы SGExC 05.1 - SGExC 12.1 AUMA NORM",
+          "url": "/images/docs/2/Part-turn actuators SGExC 05.1 - 12.1 NORM.pdf"
+        },
+        {
+          "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 AUMA NORM (без блока управления)",
+          "url": "/images/docs/2/Part-turn actuators SQ 05.2 - 14.2-SQR 05.2 - 14.2 NORM.pdf"
+        },
+        {
+          "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 с панелью местного управления AUMA SEMIPACT SEM 01.1/SEM 02.1",
+          "url": "/images/docs/2/Part-turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 with local control unit AUMA SEMIPACT SEM 01.1-SEM 02.1.pdf"
+        },
+        {
+          "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2 SQREx 05.2 – SQREx 14.2 AUMA NORM (без блока управления)",
+          "url": "/images/docs/2/Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 NORM.pdf"
+        },
+        {
+          "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 с панелью местного управления AUMA SEMIPACT SEMExC 01.1",
+          "url": "/images/docs/2/Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 with local control unit AUMA SEMIPACT SEMExC 01.1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Многооборотные приводы с блоками управления",
+      "files": [
+        {
+          "name": "Многооборотные клапанные электроприводы SVC 05.1 – SVC 07.5/SVCR 05.1 – SVCR 07.5 с встроенным блоком управления",
+          "url": "/images/docs/25/1 Valve actuators SVC 05.1 - 07.5-SVCR 05.1 - 07.5, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SA 07.1 – SA 16.1 с блоком управления AMB 01.1/AMB 02.1",
+          "url": "/images/docs/25/2 Multi-turn actuators SA 07.1 - 16.1 MATIC BASIC AMB 01.1 - 02.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.1 - 16.1/SAR 07.1 - 16.1 с блоком управления AUMA MATIC AM 01.1/AM 02.1",
+          "url": "/images/docs/25/3 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 MATIC AM 01.1 - 02.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 с блоком управления электроприводом AUMA MATIC AM 01.1/AM 02.1",
+          "url": "/images/docs/25/4 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 MATIC AM 01.1 - 02.1.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SA 25.1 – SA 48.1 SAR 25.1 – SAR 30.1 с блоком управления AUMA MATIC AM 02.1 и шкафом управления",
+          "url": "/images/docs/25/5 Multi-turn actuators SA 25.1 - 48.1-SAR 25.1 - 30.1 MATIC AM 02.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 с блоком управления электроприводом AUMA MATIC AMExC 01.1",
+          "url": "/images/docs/25/6 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMA MATIC AMExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 с блоком управления электроприводом AUMA MATIC BASIC AMBExC01.1",
+          "url": "/images/docs/25/7 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 MATIC BASIC AMBExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 с блоком управления AMExC 01.1 на настенном креплении",
+          "url": "/images/docs/25/8 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 MATIC AMExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SAExC 07.1 – SAExC 16.1 с блоком управления AMBExC 01.1",
+          "url": "/images/docs/25/9 Multi-turn actuators SAExC 07.1 - 16.1 MATIC BASIC AMBExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 с узлом управления AUMA MATIC",
+          "url": "/images/docs/25/10 Multi-turn actuators SAExC 07.1 -16.1-SARExC 07.1 - 16.1 MATIC AMExC 01.1.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 с блоком управления AUMA MATIC AMExC 01.1 для группы категории M2",
+          "url": "/images/docs/25/11 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 MATIC AMExC 01.1 for group I, category M2.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.1 – SA 16.1/SAR 07.1 – SAR 16.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.1 Intrusive",
+          "url": "/images/docs/25/12 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SA(R) 07.1 - SA(R) 16.1 AUMATIC AC 01.1",
+          "url": "/images/docs/25/13 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.1 - SA 16.1/SAR 07.1 - SAR 16.1 Non-Intrusive с блоком управления AUMATIC AC 01.1",
+          "url": "/images/docs/25/14 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1, Non-Intrusive, Foundation Fieldbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.1 – SA 16.1/SAR 07.1 – SAR 16.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.1 Non-Intrusive",
+          "url": "/images/docs/25/15 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1, Non-Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SA(R) 07.1 - SA(R) 16.1 с блоком управления AUMATIC AC 01.1 в исполнении Non-Intrusive",
+          "url": "/images/docs/25/16 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+          "url": "/images/docs/25/17 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+          "url": "/images/docs/25/18 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+          "url": "/images/docs/25/19 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Intrusive, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/20 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Non-Intrusive, Foundation Fieldbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронный (MWG) с блоком управления AUMATIC AC 01.2 «Non-Intrusive»",
+          "url": "/images/docs/25/21 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Non-Intrusive, Hart.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/22 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Non-Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/23 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2 – SA 16.2/SAR 07.2 – SAR 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/24 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2 AUMATIC AC 01.2, Non-Intrusive, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 07.2-UW – SA 16.2-UW/SAR 07.2-UW – SAR 16.2-UW Для постоянного применения под водой с блоком управления AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/25 Multi-turn actuators SA 07.2-UW – SA 16.2-UW-SAR 07.2-UW – SAR 16.2-UW for continuous underwater use, AUMATIC AC 01.2, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 40.1/SAR 25.1 – SAR 30.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.1 Intrusive",
+          "url": "/images/docs/25/26 Multi-turn actuators SA 25.1 - 40.1-SAR 25.1 - 30.1 AUMATIC AC 01.1, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 40.1/SAR 25.1 – SAR 30.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.1 Non-Intrusive",
+          "url": "/images/docs/25/27 Multi-turn actuators SA 25.1 - 40.1-SAR 25.1 - 30.1 AUMATIC AC 01.1, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 40.1/SAR 25.1 – SAR 30.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/28 Multi-turn actuators SA 25.1 - 40.1-SAR 25.1 - 30.1 AUMATIC AC 01.2, Non-Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 40.1/SAR 25.1 – SAR 30.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/29 Multi-turn actuators SA 25.1 - 40.1-SAR 25.1 - 30.1 AUMATIC AC 01.2, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 40.1/SAR 25.1 – SAR 30.1 Блок выключателей: электронный (MWG) с блоком управления электроприводомAUMATIC AC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/30 Multi-turn actuators SA 25.1 - 48.1-SAR 25.1 - 30.1 AUMATIC AC 01.1, Non-Intrusive, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SA 25.1 – SA 48.1/SAR 25.1 – SAR 30.1 с блоком управления AUMATIC AC 01.1",
+          "url": "/images/docs/25/31 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Intrusive, Foundation Fieldbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+          "url": "/images/docs/25/32 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2SAREx 07.2 – SAREx 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+          "url": "/images/docs/25/33 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2 SAREx 07.2 – SAREx 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+          "url": "/images/docs/25/34 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Intrusive, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+          "url": "/images/docs/25/35 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Non-Intrusive, Foundation Fieldbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/36 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Non-Intrusive, HART.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронный (MWG) с блоком управления AUMATIC ACExC 01.2 «Non-Intrusive»",
+          "url": "/images/docs/25/37 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Non-Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/38 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Non-Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 07.2 – SAEx 16.2/SAREx 07.2 – SAREx 16.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+          "url": "/images/docs/25/39 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2, Non-Intrusive, Profibus DP.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.1 Intrusive",
+          "url": "/images/docs/25/40 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 AUMATIC ACExC 01.1, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.1 Intrusive",
+          "url": "/images/docs/25/41 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 AUMATIC ACExC 01.1, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 Блок выключателей: электромеханический с блоком управления AUMATIC ACExC 01.2 Intrusive",
+          "url": "/images/docs/25/42 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 AUMATIC ACExC 01.2, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAEx 25.1 – SAEx 40.1/SAREx 25.1 – SAREx 30.1 Блок управления: электромеханический с блоком управления ACExC 01.2 на настенном креплении",
+          "url": "/images/docs/25/43 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1 AUMATIC ACExC 01.2, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные приводы SAExC 07.1 - 16.1/SARExC 07.1 - 16.1 Intrusive с блоком управления AUMATIC ACExC 01.1",
+          "url": "/images/docs/25/44 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 AUMATIC ACExC 01.1, Intrusive, Foundation Fieldbus.pdf"
+        },
+        {
+          "name": "Многооборотный привод SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 Intrusive с блоком управления AUMATIC ACExC 01.1",
+          "url": "/images/docs/25/45 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 AUMATIC ACExC 01.1, Intrusive, Modbus.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SAExC 07.1 – SAExC 16.1/SARExC 07.1 – SARExC 16.1 с блоком управления AUMATIC ACExC 01.1",
+          "url": "/images/docs/25/46 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 AUMATIC ACExC 01.1, Intrusive, Parallel.pdf"
+        },
+        {
+          "name": "Многооборотные электроприводы SAExC 07.1 - SAExC 16.1/SARExC 07.1 - SARExC 16.1 с управлением AUMATIC ACExC 01.1 Non-Intrusive",
+          "url": "/images/docs/25/47 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 AUMATIC ACExC 01.1, Non-Intrusive, Parallel.pdf"
+        }
+      ]
+    },
+    {
+        "id": 26,
+        "name": "Неполнооборотные приводы с блоками управления",
+        "files": [
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 Блок выключателей: электронный (MWG) с блоком управления AUMATIC AC 01.2 «Non-Intrusive»",
+            "url": "/images/docs/26/1 Part-Turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 AUMATIC AC 01.2 Non-Intrusive, HART.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/2 Part-Turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 AUMATIC AC 01.2 Non-Intrusive, Profibus.pdf"
+          },
+          {
+            "name": "Неполнооборотный привод SG 05.1 - SG 12.1 с узлом управления AUMATIC AC 01.1",
+            "url": "/images/docs/26/3 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.1, Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SG 05.1 – SG 12.1/SGR 05.1 – SGR 12.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+            "url": "/images/docs/26/4 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2, Intrusive, Profibus DP.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SG 05.1 – SG 12.1/SGR 05.1 – SGR 12.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/5 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2, Non-Intrusive, Foundation Fieldbus.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SG 05.1 – SG 12.1/SGR 05.1 – SGR 12.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/6 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2, Non-intrusive, Modbus RTU.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SG 05.1 – SG 12.1/SGR 05.1 – SGR 12.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC AC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/7 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2, Non-intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполноповоротные приводы SGExC 05.1 – SGExC 12.1 с узлом управления AUMATIC ACExC 01.1",
+            "url": "/images/docs/26/8 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.1, Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGExC 05.1-SGExC 12.1 с блоком управления AUMATIC ACExC 01.1 настройка без открытия оболочки",
+            "url": "/images/docs/26/9 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.1, Non-intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGExC 05.1 – SGExC 12.1 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+            "url": "/images/docs/26/10 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.2, Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGExC 05.1 – SGExC 12.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/11 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.2, Non-intrusive, Modbus RTU.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/12 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.2, Non-intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGExC 05.1 – SGExC 12.1 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/13 Part-turn actuators SGExC 05.1 - 12.1 AUMATIC ACExC 01.2, Non-intrusive, Profibus DP.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+            "url": "/images/docs/26/14 Part-turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 AUMATIC AC 01.2 Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC AC 01.2 Intrusive",
+            "url": "/images/docs/26/15 Part-turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 AUMATIC AC 01.2 Intrusive, Profibus.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронно-механическийс блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+            "url": "/images/docs/26/16 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Intrusive, Modbus RTU.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронно-механический с блоком управления электроприводом AUMATIC ACExC 01.2 Intrusive",
+            "url": "/images/docs/26/17 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/18 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Non-Intrusive, Foundation Fieldbus.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронный (MWG) с блоком управления AUMATIC ACExC 01.2 «Non-Intrusive»",
+            "url": "/images/docs/26/19 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Non-Intrusive, HART.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/20 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Non-Intrusive, Modbus RTU.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/21 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Non-Intrusive, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Блок выключателей: электронный (MWG) с блоком управления электроприводом AUMATIC ACExC 01.2 Non-Intrusive",
+            "url": "/images/docs/26/22 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2 Non-Intrusive, Profibus.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGC 04.1 – SGC 12.1/SGCR 04.1 – SGCR 12.1 с встроенным блоком управления",
+            "url": "/images/docs/26/23 Part-turn actuators SGC 04.1 - 12.1-SGCR 04.1 - 12.1, Modbus.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGC 04.1 – SGC 12.1/SGCR 04.1 – SGCR 12.1 со встроенным блоком управления",
+            "url": "/images/docs/26/24 Part-turn actuators SGC 04.1 - 12.1-SGCR 04.1 - 12.1, Parallel.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGC 04.1 – SGC 12.1/SGCR 04.1 – SGCR 12.1 с встроенным блоком управления",
+            "url": "/images/docs/26/25 Part-turn actuators SGC 04.1 - 12.1-SGCR 04.1 - 12.1, Profibus DP.pdf"
+          },
+          {
+            "name": "Электрические неполноповоротные электроприводы SG 03.3 – SG 04.3 с блоком управления AUMA MATIC",
+            "url": "/images/docs/26/26 Part-turn actuators SG 03.3 - 04.3 MATIC AM 01.1.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SG 05.1 – SG 12.1/SGR 05.1 – SGR 12.1 с блоком управления электроприводом AUMA MATIC AM 01.1",
+            "url": "/images/docs/26/27 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 MATIC AM 01.1.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SGExC 05.1 – SGExC 12.1 с блоком управления электроприводом AUMA MATIC AMExC 01.1",
+            "url": "/images/docs/26/28 Part-turn actuators SGExC 05.1 - 12.1 MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2 с блоком управления электроприводом AUMA MATIC AM 01.1",
+            "url": "/images/docs/26/29 Part-turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2 MATIC AM 01.1.pdf"
+          },
+          {
+            "name": "Неполнооборотные приводы SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 с блоком управления электроприводом AUMA MATIC AMExC 01.1",
+            "url": "/images/docs/26/30 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "Электрические неполнооборотные электроприводы SG 04.2 – SG 10.2 с узлом управления приводом MEC 02.1 (морское исполнение)",
+            "url": "/images/docs/26/31 Part-turn actuators SG 04.2 - 10.2 MEC 02.1, marine.pdf"
+          },
+          {
+            "name": "Электрические неполнооборотные электроприводы SG 03.3 - 05.3 с блоком управления SIMPACT/SIMPACT SE",
+            "url": "/images/docs/26/32 Part-turn actuators SG 03.3 - 05.3 SIMPACT.pdf"
+          },
+          {
+            "name": "Неполноповоротные электроприводы AS(R) 6 - AS(R) 50 AUMA VARIOMATIC MC",
+            "url": "/images/docs/26/33 Part-turn actuators AS 6 - 50-ASR 6 - 50 VARIOMATIC VM-MC 01.1.pdf"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Прямоходные приводы с блоками управления",
+        "files": [
+          {
+            "name": "Прямоходные приводы ALS 25.1 - ALS 75.1 с функцией отказоустойчивости",
+            "url": "/images/docs/2/27 Linear actuators ALS 25.1 - 75.1 VARIOMATIC-MC, Fail-Safe function.pdf"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Приложения",
+        "files": [
+          {
+            "name": "Дополнение к руководству по эксплуатации неполноповоротного привода",
+            "url": "/images/docs/2/28 Supplement special version counter-clockwise closing.pdf"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Редукторы",
+        "files": [
+          {
+            "name": "Концевой выключатель WSH для арматуры с ручным управлением WSH 10.1 – WSH 16.1",
+            "url": "/images/docs/29/1 Limit switching WSH 10.1 - 16.1 for manually operated valves.pdf"
+          },
+          {
+            "name": "Концевой выключатель WSH 10.2 – WSH 16.2 для управляемой вручную арматуры",
+            "url": "/images/docs/29/2 Limit switching WSH 10.2 - 16.2 for manually operated valves.pdf"
+          },
+          {
+            "name": "Индикатор положения арматуры WSG 90.1 для неполнооборотных редукторов GS 50.3—GS 250.3, GS 315—GS 500 и рычажных редуктров GF 50.3—GF 250.3",
+            "url": "/images/docs/29/3 Valve position indicator WSG 90.1 for part-turn gearboxes.pdf"
+          },
+          {
+            "name": "Многооборотные редукторы GHT 360.2",
+            "url": "/images/docs/29/4 Multi-turn gearboxes GHT 360.2.pdf"
+          },
+          {
+            "name": "Многооборотные редукторы. Конические редукторы GK 10.2—GK 40.2",
+            "url": "/images/docs/29/5 Multi-turn gearboxes GK 10.2 - 40.2.pdf"
+          },
+          {
+            "name": "Многооборотный редуктор GP 10.1 – GP 30.1",
+            "url": "/images/docs/29/6 Multi-turn gearboxes GP 10.1 – GP 30.1.pdf"
+          },
+          {
+            "name": "Многооборотный редуктор. Цилиндрический редуктор GST 10.1—GST 40.1",
+            "url": "/images/docs/29/7 Multi-turn gearboxes GST 10.1 - 40.1.pdf"
+          },
+          {
+            "name": "Многооборотный редуктор GSTI 25.1 - 40.1 для атомных электростанций (внутри и снаружи защитной оболочки редуктора)",
+            "url": "/images/docs/29/8 Multi-turn gearboxes GSTI 25.1 - 40.1.pdf"
+          },
+          {
+            "name": "Инструкция по эксплуатации для AUMA червячных редукторов GS с передаточным механизмом GZ",
+            "url": "/images/docs/29/9 Part-turn gearboxes GS 160 - 500, primary reduction gearings GZ 14 - 40.pdf"
+          },
+          {
+            "name": "Неполнооборотные редукторы GS 50.3 – GS 250.3",
+            "url": "/images/docs/29/10 Part-turn gearboxes GS 50.3 - 250.3, primary reduction gearings VZ 2.3 - 4.3-GZ 160.3 - 250.3.pdf"
+          },
+          {
+            "name": "Неполноборотные редукторы GSI 63.3 – GSI 250.3 для установки на атомных электростанциях (внутри/снаружи защитной оболочки реактора)",
+            "url": "/images/docs/29/11 Part-turn gearboxes GSI 63.3 - 250.3, primary reduction gearings VZI 2.3 - 4.3-GZI 160.3 - 250.3, nuclear power plants, (inside-outsid.pdf"
+          },
+          {
+            "name": "Неполнооборотные редукторы GQB 160.1 – GQB 250.1",
+            "url": "/images/docs/29/12 Part-turn-gearboxes GQB 160.1 – GQB 250.1.pdf"
+          },
+          {
+            "name": "Прямоходный модуль LE 12.1 – LE 200.1",
+            "url": "/images/docs/29/13 Linear gearbox-Linear thrust units LE 12.1 - 200.1.pdf"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Краткие инструкции",
+        "files": [
+          {
+            "name": "Неполнооборотные приводы SQ 05.2 – SQ 14.2/SQR 05.2 – SQR 14.2, SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2, со станиной и рычагом",
+            "url": "/images/docs/3/1 Part-turn actuators SQ 05.2 – SQ 14.2-QR 05.2 – SQR 14.2-SQEx 05.2 – SQEx 14.2-SQREx 05.2 – SQREx 14.2 with base and lever.pdf"
+          },
+          {
+            "name": "SGC 04.1 – SGC 10.1/SVC 05.1 – SVC 07.5",
+            "url": "/images/docs/3/2 SGC 04.1 - SGC 10.1, - Quick Tip.1, - Quick Tip.pdf"
+          },
+          {
+            "name": "SGM 04.1 – SGM 10.1/SVM 05.1 – SVM 07.5",
+            "url": "/images/docs/3/3 SGM 04.1 - SGM 10.1.pdf"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Редукторы",
+        "files": [
+          {
+            "name": "Неполнооборотные редукторы GS 50.3—GS 250.3 с опорой и рычагом",
+            "url": "/images/docs/3/32 Part-turn gearboxes GS 50.3 – GS 250.3 with base and lever.pdf"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Средства управления",
+        "files": [
+          {
+            "name": "Блок управления AUMA MATIC AM 01.1/ AM 02.1, AMExB 01.1/ AMExC 01.1 Modbus",
+            "url": "/images/docs/33/1 AM 01.1 - 02.1-AMExB 01.1-AMExC 01.1, bus connection, Modbus.pdf"
+          },
+          {
+            "name": "Блок электронного управления для электроприводов AUMA MATIC AM 01.1/ AM 02.1, AMExB 01.1/ AMExC 01.1 Profibus DP",
+            "url": "/images/docs/33/2 AM 01.1 - 02.1-AMExB 01.1-AMExC 01.1, bus connection, Profibus DP.pdf"
+          },
+          {
+            "name": "Управление для электроприводов AUMATIC AC 01.1/ACExC 01.1 DeviceNe",
+            "url": "/images/docs/33/3 Bus connection, DeviceNet, AC 01.1-ACExC 01.1.pdf"
+          },
+          {
+            "name": "Средства управления электроприводами AUMATIC AC 01.1/ACExC 01.1 Modbus",
+            "url": "/images/docs/33/4 Bus connection, Modbus, AC 01.1-ACExC 01.1.pdf"
+          },
+          {
+            "name": "Средства управления электроприводами AUMATIC AC 01.1/ACExC 01.1 Profibus DP",
+            "url": "/images/docs/33/5 Bus connection, Profibus DP, AC 01.1-ACExC 01.1.pdf"
+          },
+          {
+            "name": "Блок управления AUMATIC AC 01.2 Modbus RTU",
+            "url": "/images/docs/33/6 FO connection, Modbus, AC 01.2.pdf"
+          },
+          {
+            "name": "Блок управления AUMATIC AC 01.2 Profibus DP",
+            "url": "/images/docs/33/7 FO connection, Pofibus DP, AC 01.2.pdf"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Приводы без блоков управления",
+        "files": [
+          {
+            "name": "Схемы подключения TPA",
+            "url": "/images/docs/4/1 Overview terminal plans TPA.pdf"
+          },
+          {
+            "name": "Схемы соединений KMS",
+            "url": "/images/docs/4/2 Overview terminal plans KMS.pdf"
+          },
+          {
+            "name": "Схема подключений для SA c трехфазным электродвигателем переменного тока",
+            "url": "/images/docs/4/3 SA.1, 3-ph AC ASV111.1111 -ASV111.1121 KMSTP110-001"
+          },
+          {
+            "name": "Предложенная схема подключения для SA .2 и SQ .2 с трехфазным электродвигателем переменного тока.",
+            "url": "/images/docs/4/4 SA.2-SQ.2, 3-ph AC ASV111.1111 -ASV111.1121 TPA00R1AA-101-000.pdf"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Приводы с блоками управления",
+        "files": [
+          {
+            "name": "AMExC 01.1 Условные обозначения. AUMA MATIC",
+            "url": "/images/docs/4/5 Legend AMExC 01.1.pdf"
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "Выходные валы",
+        "files": [
+          {
+            "name": "Технические характеристики выключателей",
+            "url": "/images/docs/5/1 Switches for actuators.pdf"
+          },
+          {
+            "name": "SGC/SGCR, SVC/SVCR Параллельный интерфейс.Технические характеристики электрического разъема",
+            "url": "/images/docs/5/2 Plug-socket connector, SGC-SGCR, SVC-SVCR, parallel interface.pdf"
+          },
+          {
+            "name": "EWG 01.1, RWG 4020, потенциометр. Технические характеристики электронного датчика положения/потенциометра",
+            "url": "/images/docs/5/3 Electronic position transmitter RWG 4020, EWG 01.1, Potentiometer.pdf"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "Комплектующие",
+        "files": [
+          {
+            "name": "Технические характеристики мастер-станции SIMA",
+            "url": "/images/docs/5/4 Master Station SIMA.pdf"
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Приводы",
+        "files": [
+          {
+            "name": "Типоразмеры многооборотного электропривода AUMA NORM SA 07.1 - 16.1/SAR 07.1 - 16.1",
+            "url": "/images/docs/53/1 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1.pdf"
+          },
+          {
+            "name": "Размеры Приводы с блоком управления AUMA MATIC во взрывозащищенном исполнении SA 07.1 – SA 16.1, SAR 07.1 – SAR 16.1, AC 01.1 – BUS",
+            "url": "/images/docs/53/2 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 AUMATIC AC 01.1 BUS.pdf"
+          },
+          {
+            "name": "Многооборотные электроприводы с интегрированным блоком управления AUMA MATIC - Основные размеры SA(R) 07.1 – SA(R) 16.1 с AM 01.1 – AM 02.1",
+            "url": "/images/docs/53/3 Multi-turn actuators SA 07.1 - 16.1-SAR 07.1 - 16.1 MATIC AM 01.1 - 02.1size.pdf"
+          },
+          {
+            "name": "Размеры многооборотных приводов с электродвигателями переменного тока SA 07.2 — SA 14.6 / SAR 07.2 — SAR 14.6",
+            "url": "/images/docs/53/4 Multi-turn actuators SA 07.2 - 14.6-SAR 07.2 - 14.6, 1-phase AC.pdf"
+          },
+          {
+            "name": "Основные размеры многооборотных электроприводов с блоком управления AUMATIC SA 07.2 – SA 16.2, SAR 07.2 – SAR 16.2, AC 01.2",
+            "url": "/images/docs/53/5 Multi-turn actuators SA 07.2 - 16.2 with AC 01.2.pdf"
+          },
+          {
+            "name": "Основные размеры многооборотных электроприводов с блоком управления AC SA 07.2 – SA 16.2, SAR 07.2 – SAR 16.2, AC 01.2 – BUS",
+            "url": "/images/docs/53/6 Multi-turn actuators SA 07.2 - 16.2 with AC 01.2-Fieldbus.pdf"
+          },
+          {
+            "name": "Основные размеры многооборотных электроприводов с блоком управления AUMA MATIC SA 07.2 – SA 16.2, SAR 07.2 – SAR 16.2, AM 01.1 – AM 02.1",
+            "url": "/images/docs/53/7 Multi-turn actuators SA 07.2 - 16.2 with AM 01.1 - 02.1.pdf"
+          },
+          {
+            "name": "Основные размеры многооборотных электроприводов AUMA NORM SA 07.2 – SA 16.2, SAR 07.2 – SAR 16.2",
+            "url": "/images/docs/53/8 Multi-turn actuators SA 07.2 - 16.2-SAR 07.2 - 16.2.pdf"
+          },
+          {
+            "name": "Размеры многооборотного электропривода AUMA NORM SAEx 07.2 – SAEx 16.2, SAREx 07.2 – SAREx 16.2",
+            "url": "/images/docs/53/9 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2.pdf"
+          },
+          {
+            "name": "Размеры многооборотных электроприводов с блоками управления AUMA MATIC ExC SAEx 07.2 – SAEx 16.2, SAREx 07.2 – SAREx 16.2, AM ExC 01.1",
+            "url": "/images/docs/53/10 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMA MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "Размеры многооборотных электроприводов с блоками управления AUMATIC ExC SAEx 07.2 – SAEx 16.2, SAREx 07.2 – SAREx 16.2, AC ExC 01.2",
+            "url": "/images/docs/53/11 Multi-turn actuators SAEx 07.2 - 16.2-SAREx 07.2 - 16.2 AUMATIC ACExC 01.2.pdf"
+          },
+          {
+            "name": "Размеры многооборотных приводов AUMA NORM SAEx 25.1 – SAEx 40.1, SAREx 25.1 – SAREx 30.1",
+            "url": "/images/docs/53/12 Multi-turn actuators SAEx 25.1 - 40.1-SAREx 25.1 - 30.1.pdf"
+          },
+          {
+            "name": "Размеры Электроприводы с блоком управления AUMATIC ACExC SAExC 07.1 – SAExC 16.1, SARExC 07.1 – SARExC 16.1, ACExC 01.1",
+            "url": "/images/docs/53/13 Multi-turn actuators SAExC 07.1 - 16.1-SARExC 07.1 - 16.1 AUMATIC ACExC 01.1.pdf"
+          },
+          {
+            "name": "Основные размеры электроприводов AUMA NORM SAExC 07.1 - SAExC 16.1, SARExC 07.1 - SARExC 16.1",
+            "url": "/images/docs/53/14 Multi-turn actuators SAExC 07.1 -16.1-SARExC 07.1 - 16.1.pdf"
+          },
+          {
+            "name": "Размеры Электроприводы с блоком управления AUMA MATIC AMExB SAExC 07.1 - SAExC 16.1, SARExC 07.1 - SARExC 16.1, AMExB 01.1",
+            "url": "/images/docs/53/15 Multi-turn actuators SAExC 07.1 -16.1-SARExC 07.1 - 16.1 MATIC AMExB 01.1.pdf"
+          },
+          {
+            "name": "Электроприводы со встроенным блоком управления AUMA MATIC AMExC SAExC 07.1 – SAExC 16.1, SARExC 07.1 – SARExC 16.1, AMExC 01.1",
+            "url": "/images/docs/53/16 Multi-turn actuators SAExC 07.1 -16.1-SARExC 07.1 - 16.1 MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов ED 25 – ED 50",
+            "url": "/images/docs/53/17 Part-turn actuators ED 25 - 50.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов EQ 40 – EQ 150",
+            "url": "/images/docs/53/18 Part-turn actuators EQ 40 - 150.pdf"
+          },
+          {
+            "name": "Размеры Неполнооборотные приводы SG 03.3 – SG 04.3, SGR 04.3",
+            "url": "/images/docs/53/19 Part-turn actuators SG 03.3 - SG 04.3-SGR 03.3 - SGR 04.3.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов со встроенным блоком управления AUMATIC SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1, AC 01.1",
+            "url": "/images/docs/53/20 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.1.pdf"
+          },
+          {
+            "name": "Размеры Неполнооборотные приводы AUMA со встроенным блоком управления AUMATIC SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1, AC 01.1 – BUS",
+            "url": "/images/docs/53/21 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.1 BUS.pdf"
+          },
+          {
+            "name": "Основные размеры неполнооборотных электроприводов с блоком управления AUMATIC SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1, AC 01.2",
+            "url": "/images/docs/53/22 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2.pdf"
+          },
+          {
+            "name": "Основные размеры неполнооборотных электроприводов с блоком управления AUMATIC SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1, AC 01.2-BUS",
+            "url": "/images/docs/53/23 Part-turn actuators SG 05.1 - 12.1-SGR 05.1 - 12.1 AUMATIC AC 01.2 BUS.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов AUMA SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1",
+            "url": "/images/docs/53/24 Part-turn actuators SG 05.1 - SG 12.1-SGR 05.1 - SGR 12.1.pdf"
+          },
+          {
+            "name": "Wymiary Неполнооборотные приводы со встроенным блоком управления AUMA MATIC SG 05.1 – SG 12.1, SGR 05.1 – SGR 12.1, AM 01.1",
+            "url": "/images/docs/53/25 Part-turn actuators SG 05.1 - SG 12.1-SGR 05.1 - SGR 12.1 MATIC AM 01.1.pdf"
+          },
+          {
+            "name": "SGC 04.1 – SGC 10.1/SVC 05.1 – SVC 07.5,SGCR 04.1 – SGCR 10.1/SVCR 05.1 – SVCR 07.5 Размеры неполнооборотного/многооборотного приводов с встроенным блоком управления",
+            "url": "/images/docs/53/26 Part-turn actuators SGC 04.1 - SGC 10.1-SVC 05.1 - SVC 07.5.pdf"
+          },
+          {
+            "name": "SGC 12.1 / SGCR 12.1 Технические характеристики неполнооборотных приводов со встроенным блоком управления",
+            "url": "/images/docs/53/27 Part-turn actuators SGC 12.1-SGCR 12.1.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов SGExC 05.1 – SGExC 12.1",
+            "url": "/images/docs/53/28 Part-turn actuators SGExC 05.1 - SGExC 12.1.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов со встроенным блоком управления AUMATIC ExC SGExC 05.1 – SGExC 12.1, ACExC 01.1",
+            "url": "/images/docs/53/29 Part-turn actuators SGExC 05.1 - SGExC 12.1 AUMATIC ACExC 01.1.pdf"
+          },
+          {
+            "name": "Размеры неполнооборотных приводов со встроенным блоком управления AUMA MATIC ExC SGExC 05.1 – SGExC 12.1, AMExC 01.1",
+            "url": "/images/docs/53/30 Part-turn actuators SGExC 05.1 - SGExC 12.1 MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "SQ 05.2 — SQ 14.2 / SQR 05.2 — SQR 14.2 / AM 01.1 Размеры неполнооборотных приводов со встроенным блоком управления AUMA MATIC",
+            "url": "/images/docs/53/31 Part-turn actuators SQ 05.2 - 14.2-SQR 05.2 - SQR 14.2 AUMA MATIC AM 01.1.pdf"
+          },
+          {
+            "name": "SQ 05.2 — SQ 14.2 / SQR 05.2 — SQR 14.2 Размеры неполнооборотных приводов",
+            "url": "/images/docs/53/32 Part-turn actuators SQ 05.2 - SQ 14.2-SQR 05.2 - SQR 14.2.pdf"
+          },
+          {
+            "name": "SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2 Размеры неполнооборотных приводов",
+            "url": "/images/docs/53/33 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2.pdf"
+          },
+          {
+            "name": "SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2/AMExC 01.1 Размеры неполнооборотных приводов с блоком управления AMExC (в т.ч. для шины)",
+            "url": "/images/docs/53/34 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMA MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "SQEx 05.2 – SQEx 14.2/SQREx 05.2 – SQREx 14.2/ACExC 01.2 Размеры неполноповоротных приводов с блоком управления ACExC (в т.ч. для шины)",
+            "url": "/images/docs/53/35 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2 AUMATIC ACExC 01.2.pdf"
+          },
+          {
+            "name": "SQEx 05.2 - SQEx 14.2/SQREx 05.2 - SQREx 14.2 Размеры неполнооборотный электроприводов с однофазными электродвигателями переменногоьтока",
+            "url": "/images/docs/53/36 Part-turn actuators SQEx 05.2 - SQEx 14.2-SQREx 05.2 - SQREx 14.2, 1-ph AC.pdf"
+          },
+          {
+            "name": "EQ 40 – EQ 600 Неполнооборотные приводы с опорой и рычагом",
+            "url": "/images/docs/53/37 Part-turn actuators EQ 40 - 600 with base and lever.pdf"
+          }          
+          
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Редукторы",
+        "files": [
+          {
+            "name": "Размеры Концевой выключатель для арматуры, управляемой вручную WSH 10.1 - WSH 16.1",
+            "url": "/images/docs/54/1 Limit switching WSH 10.1 - 16.1, manually operated valves_th.pdf"
+          },
+          {
+            "name": "GHT 320.3 — GHT 1200.3 Размеры многооборотного редуктора",
+            "url": "/images/docs/54/2 Valve position indicator WGD 90.1.pdf"
+          },
+          {
+            "name": "GHT 360.2 Размеры многооборотного привода",
+            "url": "/images/docs/54/3 Multi-turn gearboxes GHT 320.3 - GHT 1200.3.pdf"
+          },
+          {
+            "name": "Размеры Конические редукторы GK 10.2 - GK 40.2",
+            "url": "/images/docs/54/4 Multi-turn gearboxes GHT 360.2_th.pdf"
+          },
+          {
+            "name": "GST 10.1 — GST 40.1 Размеры цилиндрического редуктора",
+            "url": "/images/docs/54/5 Multi-turn gearboxes GK 10.2 - 40.2.pdf"
+          },
+          {
+            "name": "GS 200.3 Размеры неполнооборотного редуктора",
+            "url": "/images/docs/54/6 Multi-turn gearboxes GST 10.1 - 40.1.pdf"
+          },
+          {
+            "name": "GS 250.3 Размеры червячной передачи и первичного редуктора",
+            "url": "/images/docs/54/7 Multi-turn gearboxes GSTI 25.1 - 40.1.pdf"
+          },
+          {
+            "name": "GQB 160.1 — GQB 250.1 Размеры неполнооборотного редуктора",
+            "url": "/images/docs/54/8 Part-turn gearboxes GS 315 - 500, modulating duty and shorter operating time.pdf"
+          },
+          {
+            "name": "GS 160.3 Размеры червячной передачи и первичного редуктора",
+            "url": "/images/docs/54/9 Part-turn gearboxes GS 315 - 500, open-close duty.pdf"
+          },
+          {
+            "name": "Размеры Червячные редукторы и понижающая передача GS 315 – 500, GZ 30.1 – GZ 40.1",
+            "url": "/images/docs/54/10 Part-turn gearboxes GS 50.3 - 250.3, modulating duty.pdf"
+          },
+          {
+            "name": "GS 50.3—GS 125.3 Размеры червячной передачи и первичного редуктора",
+            "url": "/images/docs/54/11 Part-turn gearboxes GS 50.3 - 250.3, Operating times for different reduction ratios and input speeds.pdf"
+          },
+          {
+            "name": "GS 160.3 – GS 250.3 Размеры выходного фланца",
+            "url": "/images/docs/54/12 Part-turn gearboxes GS 50.3 - 250.3, open-close duty.pdf"
+          },
+          {
+            "name": "GS 50.3 – GS 125.3 Размеры выходного фланца",
+            "url": "/images/docs/54/13 Part-turn gearboxes GS 630.3, GZ 630.3, open-close duty.pdf"
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "Средства управления",
+        "files": [
+          {
+            "name": "Настенное крепление AUMA SEMIPACT SEM 01.1",
+            "url": "/images/docs/55/1 Actuator controls AUMA SEMIPACT SEM 01.1, wall bracket.pdf"
+          },
+          {
+            "name": "Блок управления AC 01.2 на настенном креплении. Размеры настенного крепления AC 01.2",
+            "url": "/images/docs/55/2 Actuator controls AUMATIC AC 01.2.pdf"
+          },
+          {
+            "name": "Блок управления ACExC 01.2 на настенном креплении. Размеры настенного крепления ACExC 01.2",
+            "url": "/images/docs/55/3 Actuator controls AUMATIC ACExC 01.2, wall bracket.pdf"
+          },
+          {
+            "name": "Блок управления AM 01.1 / AM 02.1 на настенном креплении Размеры настенного крепления AM 01.1 / AM 02.1",
+            "url": "/images/docs/55/4 Actuator controls MATIC AM 01.1 - 02.1, wall bracket.pdf"
+          },
+          {
+            "name": "Блок управления AMExC 01.1 на настенном креплении. Размеры настенного крепления AMExC 01.1",
+            "url": "/images/docs/55/5 Actuator controls MATIC AMExC, wall bracket.pdf"
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Комплектующие",
+        "files": [
+          {
+            "name": "Привод. Технические характеристики выключателей",
+            "url": "/images/docs/6/1 Switches for actuators_th.pdf"
+          },
+          {
+            "name": "SGC/SGCR, SVC/SVCR Параллельный интерфейс. Технические характеристики электрического разъема",
+            "url": "/images/docs/6/2 Plug-socket connector, SGC-SGCR, SVC-SVCR, parallel interface.pdf"
+          },
+          {
+            "name": "EWG 01.1, RWG 4020, потенциометр. Технические характеристики электронного датчика положения/потенциометра",
+            "url": "/images/docs/6/3 Electronic position transmitter RWG 4020, EWG 01.1, Potentiometer.pdf"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "Мастер-станция",
+        "files": [
+          {
+            "name": "Технические характеристики мастер-станции SIMA. SIMA 2SM20",
+            "url": "/images/docs/6/4 Master Station SIMA.pdf"
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "Приводы",
+        "files": [
+          {
+            "name": "SA 07.2 — SA 14.6 AUMA NORM Технические характеристики многооборотных приводов с однофазными электродвигателями переменного тока для режима «Открыть-Закрыть»",
+            "url": "/images/docs/63/1 Multi-turn actuators SA 07.2 - 14.6, open-close duty, 1-phase AC_th.pdf"
+          },
+          {
+            "name": "SAEx 07.2 — SAEx 14.6 AUMA NORM Технические характеристики многооборотных приводов с однофазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/2 Multi-turn actuators SAEx 07.2 - 14.6, open-close duty, 1-phase AC_th.pdf"
+          },
+          {
+            "name": "Технические характеристики многооборотных приводов с однофазными электродвигателями переменного тока для режима регулирования SAR 07.2 – SAR 14.6 AUMA NORM",
+            "url": "/images/docs/63/3 Multi-turn actuators SAR 07.2 - 14.6, modulating duty, 1-phase AC_th.pdf"
+          },
+          {
+            "name": "SAREx 07.2 — SAREx 14.6 AUMA NORM Технические характеристики многооборотных приводов с однофазными электродвигателями переменного тока для режима регулирования",
+            "url": "/images/docs/63/4 Multi-turn actuators SAREx 07.2 - 14.6, modulating duty, 1-phase AC_th.pdf"
+          },
+          {
+            "name": "SA 07.2 — SA 16.2 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигателями для режима «Открыть—Закрыть»",
+            "url": "/images/docs/63/5 Multi-turn actuators SA 07.2 - 16.2, open-close duty, 3-phase AC_th.pdf"
+          },
+          {
+            "name": "SA 07.2-UW – SA 16.2-UW Технические характеристики многооборотных приводов для режима Открыть-Закрыть с трехфазными электродвигателями для постоянного использования под водой",
+            "url": "/images/docs/63/6 Multi-turn actuators SA 07.2-UW - SA 16.2-UW, open-close duty, 3-phase AC, for continuous underwater use_th.pdf"
+          },
+          {
+            "name": "SA 25.1 – SA 48.1 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/7 Multi-turn actuators SA 25.1 - 48.1, open-close duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SAEx 07.2 – SAEx 16.2 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигате- лями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/8 Multi-turn actuators SAEx 07.2 - 16.2, open-close duty, 3-phase AC_th.pdf"
+          },
+          {
+            "name": "SAEx 25.1 – SAEx 40.1 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/9 Multi-turn actuators SAEx 25.1 - 40.1, open-close duty, 3-phase AC_th.pdf"
+          },
+          {
+            "name": "Технические характеристики многооборотных приводов с трехфазными электродвигателями переменного тока для режима регулирования SAR 07.2 – SAR 16.2 AUMA NORM",
+            "url": "/images/docs/63/10 Multi-turn actuators SAR 07.2 - 16.2, modulating duty, 3-phase AC_th.pdf"
+          },
+          {
+            "name": "SAR 07.2-UW – SAR 16.2-UW Технические характеристики многооборотных приводов для режима регулирования с трехфазными электродвигателями для постоянного использования под водой",
+            "url": "/images/docs/63/11 Multi-turn actuators SAR 07.2-UW - SAR 16.2-UW, modulatingn duty, 3-phase AC, for continuous underwater use.pdf"
+          },
+          {
+            "name": "SAREx 07.2 – SAREx 16.2 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигателями переменного тока для режима регулирования",
+            "url": "/images/docs/63/12 Multi-turn actuators SAREx 07.2 - 16.2, modulating duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SAREx 25.1 – SAREx 30.1 AUMA NORM Технические характеристики многооборотных приводов с трехфазными электродвигателями переменного тока для режима регулирования",
+            "url": "/images/docs/63/13 Multi-turn actuators SAREx 25.1 - 30.1, modulating duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "ED 25 – ED 50, EQ 40 – EQ 600 Технические характеристики неполнооборотных приводов для режима “Открыть-Закрыть” и режима регулирования",
+            "url": "/images/docs/63/14 Part-turn actuators ED 25 - 50-EQ 40 - 600, open-close and modulationg duty.pdf"
+          },
+          {
+            "name": "Технические характеристики неполнооборотных приводов AUMA для работы в режиме ОТКРЫТЬ-ЗАКРЫТЬ SG 03.3 – SG 04.3 AUMA NORM",
+            "url": "/images/docs/63/15 Part-turn actuators SG 03.3 - 04.3, open-close duty, 1-phase AC, 3-phase.pdf"
+          },
+          {
+            "name": "Технические характеристики неполнооборотных приводов с однофазными электродвигателями переменного тока для режима Открыть- Закрыть SG 05.1 – SG 12.1 AUMA NORM",
+            "url": "/images/docs/63/16 Part-turn actuators SG 05.1 - 12.1, open-close duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "SGC 04.1 – SGC 12.1/SGCR 04.1 – SGCR 12.1 Технические характеристики неполнооборотных приводов с встроенным блоком управления для режимов \"Открыть-Закрыть\" и регулирования",
+            "url": "/images/docs/63/17 Part-turn actuators SGC-SGCR 04.1 - 12.1.pdf"
+          },
+          {
+            "name": "SGC 04.1 — SGC 12.1 / SGCR 04.1 — SGCR 12.1, Modbus RTU Технические характеристики неполнооборотных приводов с встроенным блоком управления для режимов «Открыть-Закрыть» и регулирования",
+            "url": "/images/docs/63/18 Part-turn actuators SGC-SGCR 04.1 - 12.1, Modbus RTU.pdf"
+          },
+          {
+            "name": "SQ 05.2 – SQ 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с однофазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/19 Part-turn actuators SQ 05.2 - 14.2, open-close duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "SQEx 05.2—SQEx 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с однофазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/20 Part-turn actuators SQEx 05.2 - 14.2, open-close duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "SQR 05.2 – SQR 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с однофазными электродвигателями переменного тока для режима регулирования",
+            "url": "/images/docs/63/21 Part-turn actuators SQEx 05.2 - 14.2, open-close duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "SQREx 05.2—SQREx 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с двигателями переменного тока для режима регулирования",
+            "url": "/images/docs/63/22 Part-turn actuators SQR 05.2 - 14.2, modulating duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "Технические характеристики неполнооборотных приводов AUMA с трёхфазным электродвигателем переменного тока для работы в режиме ОТКРЫТЬ-ЗАКРЫТЬ SG 05.1 – SG 12.1 AUMA NORM",
+            "url": "/images/docs/63/23 Part-turn actuators SQREx 05.2 - 14.2, modulating duty, 1-phase AC.pdf"
+          },
+          {
+            "name": "Технические характеристики неполнооборотных приводов с трехфазными электродвигателями переменного тока для работы в режиме ОТКРЫТЬ-ЗАКРЫТЬ SGExC 05.1 – SGExC 12.1",
+            "url": "/images/docs/63/24 Part-turn actuators SG 05.1 - 12.1, open-close duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "Технические характеристики неполнооборотных приводов с трехфазными электродвигателями переменного тока для работы в режиме ОТКРЫТЬ-ЗАКРЫТЬ SGR 05.1 – SGR 12",
+            "url": "/images/docs/63/25 Part-turn actuators SGExC 05.1 - 12.1, open-close duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SQ 05.2—SQ 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с трехфазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/26 Part-turn actuators SGR 05.1 - 12.1, modulating duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SQ/SQR 05.2 – SQ/SQR 14.2, SQEx/SQREx 05.2 – SQEx/SQREx 14.2 Технические характеристики и крутящие моменты при различных напряжениях кратковременный режим S2 - 15 мин, повторно-кратковременный режим S4 - 25 %",
+            "url": "/images/docs/63/27 Part-turn actuators SQ 05.2 - 14.2, open-close duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SQEx 05.2 – SQEx 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с трехфазными электродвигателями переменного тока для режима Открыть-Закрыть",
+            "url": "/images/docs/63/28 Part-turn actuators SQ-SQR 05.2 - 14.2 - SQEx-SQREx 05.2 - 14.2, Torques for differential voltages, Short-time duty S2 - 15 min, Inter.pdf"
+          },
+          {
+            "name": "SQR 05.2—SQR 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с трехфазными электродвигателями для режима регулирования",
+            "url": "/images/docs/63/29 Part-turn actuators SQEx 05.2 - 14.2, open-close duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "SQREx 05.2 – SQREx 14.2 AUMA NORM Технические характеристики неполнооборотных приводов с трехфазными электродвигателями для режима регулирования",
+            "url": "/images/docs/63/30 Part-turn actuators SQR 05.2 - 14.2, modulating duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "Технические характеристики прямоходных модулей с многооборотными приводами для режима ОТКРЫТЬ-ЗАКРЫТЬ LE 12.1 – LE 200.1, SA 07.1 – SA 16.1",
+            "url": "/images/docs/63/31 Part-turn actuators SQREx 05.2 - 14.2, modulating duty, 3-phase AC.pdf"
+          },
+          {
+            "name": "LE 12.1 – LE 200.1 с SA 07.2 – SA 16.2 Технические характеристики прямоходного модуля с многооборотным приводом для режима «Открыть-Закрыть»",
+            "url": "/images/docs/63/32 Linear actuators-linear thrust units SA 07.1 - 16.1-LE 12.1 -200.1, open-close duty.pdf"
+          },
+          {
+            "name": "LE 12.1 — LE 200.1 c SAEx 07.2 — SAEx 16.2 Технические характеристики прямоходного модуля с многооборотным приводом для режима «Открыть - Закрыть»",
+            "url": "/images/docs/63/33 Linear actuators-linear thrust units SA 07.2 - 16.2-LE 12.1 -200.1, open-close duty.pdf"
+          },
+          {
+            "name": "Технические характеристики прямоходных модулей с многооборотными приводами для режима регулирования LE 12.1 – LE 200.1 SAR 07.1 – SAR 16.1",
+            "url": "/images/docs/63/34 Linear actuators-linear thrust units SAEx 07.2 - 16.2-LE 12.1 -200.1, open-close duty.pdf"
+          },
+          {
+            "name": "LE 12.1 – LE 200.1 с SAR 07.2 – SAR 16.2 Технические характеристики прямоходного модуля с многооборотным приводом для режима регулирования",
+            "url": "/images/docs/63/35 Linear actuators-linear thrust units SAR 07.1 - 16.1-LE 12.1 -200.1, modulating duty.pdf"
+          },
+          {
+            "name": "LE 12.1 – LE 200.1 с SAREx 07.2 – SAREx 16.2 Технические характеристики прямоходного модуля с многооборотным приводом для режима регулирования",
+            "url": "/images/docs/63/36 Linear actuators-linear thrust units SAR 07.2 - 16.2-LE 12.1 -200.1, modulating duty.pdf"
+          },
+          {
+            "name": "Технические характеристики рычажных приводов AUMA с трехфазными электродвигателями переменного тока для режима ОТКРЫТЬ-ЗАКРЫТЬ SGF 05.1 – SGF 12.1",
+            "url": "/images/docs/63/38 Lever actuators SGF 05.1 - 12.1, open-close duty, 3-phase AC.pdf"
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Редукторы",
+        "files": [
+          {
+            "name": "Технические характеристики концевого выключателя WSH для арматуры, управляемой вручную WSH 10.1 – WSH 16.1",
+            "url": "/images/docs/64/1 Limit switching WSH 10.1 - 16.1, manually operated valves_th.pdf"
+          },
+          {
+            "name": "Технические характеристики Блок управления для червячных редукторов > 180° WGD 90.1",
+            "url": "/images/docs/64/2 Valve position indicator WGD 90.1.pdf"
+          },
+          {
+            "name": "GHT 320.3—GHT 1200.3 Технические характеристики многооборотных редукторов",
+            "url": "/images/docs/64/3 Multi-turn gearboxes GHT 320.3 - GHT 1200.3.pdf"
+          },
+          {
+            "name": "GHT 360.2 Технические характеристики многооборотных редукторов",
+            "url": "/images/docs/64/4 Multi-turn gearboxes GHT 360.2_th.pdf"
+          },
+          {
+            "name": "GK 10.2 — GK 40.2 Технические характеристики многооборотных редукторов",
+            "url": "/images/docs/64/5 Multi-turn gearboxes GK 10.2 - 40.2.pdf"
+          },
+          {
+            "name": "GST 10.1 — GST 40.1 Технические характеристики многооборотных редукторов",
+            "url": "/images/docs/64/6 Multi-turn gearboxes GST 10.1 - 40.1.pdf"
+          },
+          {
+            "name": "GSTI 25.1 – GSTI 40.1 Технические характеристики многооборотных редукторов для установки на атомных электростанциях Под/вне защитной оболочки в соответствии с IEEE 382-1996",
+            "url": "/images/docs/64/7 Multi-turn gearboxes GSTI 25.1 - 40.1.pdf"
+          },
+          {
+            "name": "GS 315 – GS 500 Технические характеристики неполнооборотного редуктора для режима регулирования и короткого времени хода",
+            "url": "/images/docs/64/8 Part-turn gearboxes GS 315 - 500, modulating duty and shorter operating time.pdf"
+          },
+          {
+            "name": "GS 315 – GS 500 Технические характеристики неполнооборотного редуктора для режима Открыть-Закрыть",
+            "url": "/images/docs/64/9 Part-turn gearboxes GS 315 - 500, open-close duty.pdf"
+          },
+          {
+            "name": "GS 50.3—GS 250.3 Технические характеристики неполнооборотного редуктора для режима регулирования",
+            "url": "/images/docs/64/10 Part-turn gearboxes GS 50.3 - 250.3, modulating duty.pdf"
+          },
+          {
+            "name": "GS 50.3—GS 250.3 Технические данные неполнооборотных редукторов. Время хода при различных передаточных числах и входной скорости",
+            "url": "/images/docs/64/11 Part-turn gearboxes GS 50.3 - 250.3, Operating times for different reduction ratios and input speeds.pdf"
+          },
+          {
+            "name": "GS 50.3—GS 250.3 Технические характеристики неполнооборотного редуктора для режима Открыть-Закрыть",
+            "url": "/images/docs/64/12 Part-turn gearboxes GS 50.3 - 250.3, open-close duty.pdf"
+          },
+          {
+            "name": "GS 630.3 Технические характеристики неполнооборотного редуктора для режима Открыть-Закрыть",
+            "url": "/images/docs/64/13 Part-turn gearboxes GS 630.3, GZ 630.3, open-close duty.pdf"
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "name": "Средства управления",
+        "files": [
+          {
+            "name": "Teхнические характеристики Блоки управления AUMA MATIC AM 01.1 - AM 02.1",
+            "url": "/images/docs/65/1 Actuator controls MATIC AM 01.1 - 02.1.pdf"
+          },
+          {
+            "name": "Teхнические характеристики Блоки управления AUMA MATIC AMExB 01.1",
+            "url": "/images/docs/65/2 Actuator controls MATIC AMExB 01.1.pdf"
+          },
+          {
+            "name": "AMExC 01.1 Технические характеристики блока управления",
+            "url": "/images/docs/65/3 Actuator controls MATIC AMExC 01.1.pdf"
+          },
+          {
+            "name": "AC 01.2 Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/4 Actuator controls AUMATIC AC 01.2_th.pdf"
+          },
+          {
+            "name": "AC 01.2 Foundation Fieldbus Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/5 Actuator controls AUMATIC AC 01.2, Foundation Fieldbus.pdf"
+          },
+          {
+            "name": "AC 01.2 Modbus Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/6 Actuator controls AUMATIC AC 01.2, Modbus.pdf"
+          },
+          {
+            "name": "AC 01.2 Profibus DP Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/7 Actuator controls AUMATIC AC 01.2, Profibus DP.pdf"
+          },
+          {
+            "name": "ACExC 01.2 Foundation Fieldbus Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/8 Actuator controls AUMATIC ACExC 01.2, Foundation Fieldbus.pdf"
+          },
+          {
+            "name": "ACExC 01.2 Modbus Технические характеристики блока управления электроприводом",
+            "url": "/images/docs/65/9 Actuator controls AUMATIC ACExC 01.2, Modbus.pdf"
+          }
+
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Технические описания",
+        "files": [
+          {
+            "name": "Техническое описание электрического привода, блока управления и редуктора в огнеупорном исполнении K-Mass™ (зарегистрированная марка фирмы Thermal Designs Inc.)",
+            "url": "/images/docs/7/1 Coating for actuators, actuator controls and gearboxes in fireproof version K-Mass.pdf"
+          },
+          {
+            "name": "Инструкция по лакировке P1.001 Техническое описание. Порошковое покрытие, грунтовка и верхний слой",
+            "url": "/images/docs/7/2 Painting specification P1.001 Powder coating, primer coating and finsh coating.pdf"
+          },
+          {
+            "name": "Инструкция по нанесению лакокрасочного покрытия P1.002 Техническое описание. Порошковое покрытие, грунтовка, верхний слой и лакировка",
+            "url": "/images/docs/7/3 Painting specification P1.002 Powder coating, primer coating, finish coating and additional painting.pdf"
+          }
+        ]
+      }
+]
+}
