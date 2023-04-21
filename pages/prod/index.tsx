@@ -37,7 +37,7 @@ function Products(): JSX.Element {
                       height={120}
                     />
                   </span>
-                  <Link className={styles.link} href={'/mnogo'}>
+                  <Link className={styles.link} href={'/prod/mnogo'}>
                     <h4>Многооборотные приводы</h4>
                   </Link>
                   <p style={{ textAlign: 'center', padding: '0', margin: '0' }}>
@@ -61,7 +61,7 @@ function Products(): JSX.Element {
                       height={90}
                     />
                   </span>
-                  <Link className={styles.link} href={'/controls'}>
+                  <Link className={styles.link} href={'/prod/controls'}>
                     <h4>Средства управления</h4>
                   </Link>
                   <p style={{ textAlign: 'center', padding: '0', margin: '0' }}>
@@ -97,7 +97,7 @@ function Products(): JSX.Element {
                     height={90}
                   />
                 </span>
-                <Link className={styles.link} href={'/nepoln'}>
+                <Link className={styles.link} href={'/prod/nepoln'}>
                   <h4>Неполнооборотные приводы</h4>
                 </Link>
 
@@ -117,7 +117,7 @@ function Products(): JSX.Element {
                     height={90}
                   />
                 </span>
-                <Link className={styles.link} href={'/pryamo'}>
+                <Link className={styles.link} href={'/prod/pryamo'}>
                   <h4>Прямоходные приводы</h4>
                 </Link>
 
@@ -153,7 +153,7 @@ function Products(): JSX.Element {
                     height={90}
                   />
                 </span>
-                <Link className={styles.link} href={'/nepoln_red'}>
+                <Link className={styles.link} href={'/prod/nepoln_red'}>
                   <h4>Неполнооборотные редукторы</h4>
                 </Link>
 
@@ -173,7 +173,7 @@ function Products(): JSX.Element {
                     height={90}
                   />
                 </span>
-                <Link className={styles.link} href={'/mnogo_red'}>
+                <Link className={styles.link} href={'/prod/mnogo_red'}>
                   <h4>Многооборотные редукторы</h4>
                 </Link>
 
@@ -221,7 +221,7 @@ function Products(): JSX.Element {
                       height={90}
                     />
                   </span>
-                  <Link className={styles.link} href={'/rychag_red'}>
+                  <Link className={styles.link} href={'/prod/rychag_red'}>
                     <h4>Рычажные редукторы</h4>
                   </Link>
 
@@ -244,7 +244,7 @@ function Products(): JSX.Element {
                       height={90}
                     />
                   </span>
-                  <Link className={styles.link} href={'/rychag'}>
+                  <Link className={styles.link} href={'/prod/rychag'}>
                     <h4>Рычажные приводы</h4>
                   </Link>
 
