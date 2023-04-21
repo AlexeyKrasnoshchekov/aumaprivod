@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from './Controls.module.css';
 import { withLayout } from '@/layout/Layout';
 import Image from 'next/image';

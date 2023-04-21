@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
 import Image from 'next/image';
 import cn from 'classnames';
@@ -36,7 +37,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Иркутск
+            Обособленное подразделение ООО "АумаПриводСервис"&nbsp;г.Иркутск
           </h4>
           <div className={styles.address}>
             664009, г.Иркутск, улица
