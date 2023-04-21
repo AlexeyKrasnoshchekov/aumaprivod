@@ -16,7 +16,7 @@ function Contacts(): JSX.Element {
       </Head>
       <div className={styles.wrapper}>
         <div className={cn(styles.innerWrapper, styles.surgut)}>
-          <h4 className={styles.header}>ООО \"АумаПриводСервис\"</h4>
+          <h4 className={styles.header}>ООО "АумаПриводСервис"</h4>
           <div className={styles.address}>
             628404, ХМАО-Югра, г. Сургут, ул. Рационализаторов, д.23/2
           </div>
@@ -60,7 +60,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Омск
+            Обособленное подразделение ООО "АумаПриводСервис"&nbsp;г.Омск
           </h4>
           <div className={styles.address}>
             644123, г.Омск, ул.70 Лет Октября, 24, офис 410
@@ -82,7 +82,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Тюмень
+            Обособленное подразделение ООО "АумаПриводСервис"&nbsp;г.Тюмень
           </h4>
           <div className={styles.address}>
             625000, г. Тюмень, ул. Республики, д. 61, офис 605
