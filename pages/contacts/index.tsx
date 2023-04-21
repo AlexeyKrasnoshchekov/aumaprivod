@@ -36,7 +36,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО &quot;АумаПриводСервис&quot;&nbsp;г.Иркутск
+            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Иркутск
           </h4>
           <div className={styles.address}>
             664009, г.Иркутск, улица
@@ -59,7 +59,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО &quot;АумаПриводСервис&quot;&nbsp;г.Омск
+            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Омск
           </h4>
           <div className={styles.address}>
             644123, г.Омск, ул.70 Лет Октября, 24, офис 410
@@ -81,7 +81,7 @@ function Contacts(): JSX.Element {
         </div>
         <div className={styles.innerWrapper}>
           <h4 className={styles.header}>
-            Обособленное подразделение ООО &quot;АумаПриводСервис&quot;&nbsp;г.Тюмень
+            Обособленное подразделение ООО \"АумаПриводСервис\"&nbsp;г.Тюмень
           </h4>
           <div className={styles.address}>
             625000, г. Тюмень, ул. Республики, д. 61, офис 605
