@@ -15,7 +15,7 @@ function Contacts(): JSX.Element {
       </Head>
       <div className={styles.wrapper}>
         <div className={cn(styles.innerWrapper, styles.surgut)}>
-          <h4 className={styles.header}>ООО &quot;АумаПриводСервис&quot;</h4>
+          <h4 className={styles.header}>ООО \"АумаПриводСервис\"</h4>
           <div className={styles.address}>
             628404, ХМАО-Югра, г. Сургут, ул. Рационализаторов, д.23/2
           </div>
