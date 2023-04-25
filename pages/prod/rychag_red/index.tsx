@@ -26,10 +26,10 @@ function Klin(): JSX.Element {
               Рычажные редукторы GF 50.3 - GF 125.3 и GF 160 - GF 250
             </h2>
             <Image
-              src={'/images/rychag/1.png'}
+              src={'/images/privod_cards/rychag_red.png'}
               alt="Рычажные редукторы GF 50.3 - GF 125.3 и GF 160 - GF 250"
-              width={170}
-              height={150}
+              width={220}
+              height={200}
             />
             <h3 className={styles.title}>Особенности конструкции:</h3>
             <ul className={styles.text}>

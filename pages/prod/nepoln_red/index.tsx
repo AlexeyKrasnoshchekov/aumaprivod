@@ -34,7 +34,7 @@ function Klin(): JSX.Element {
         {/* <h2 className={styles.title}>Многооборотные приводы SA и SAR</h2> */}
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Червячные редукторы GS</h2>
+          <Link href={'/prod/nepoln_red/1'}><h2 className={styles.title}>Червячные редукторы GS</h2></Link>
             <Image
               src={'/images/nepoln_red/1.png'}
               alt="Червячные редукторы GS"
@@ -48,7 +48,7 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>Индикатор положения арматуры WSG</h2>
+          <Link href={'/prod/nepoln_red/2'}><h2 className={styles.title}>Индикатор положения арматуры WSG</h2></Link>
             <Image
               src={'/images/nepoln_red/2.png'}
               alt="Индикатор положения арматуры WSG"
@@ -64,9 +64,9 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>
+          <Link href={'/prod/nepoln_red/3'}><h2 className={styles.title}>
               Неполнооборотные редукторы GHE для кораблестроения
-            </h2>
+            </h2></Link>
             <Image
               src={'/images/nepoln_red/3.png'}
               alt="Неполнооборотные редукторы GHE для кораблестроения"
@@ -84,9 +84,9 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>
+          <Link href={'/prod/nepoln_red/4'}><h2 className={styles.title}>
               Неполнооборотные редукторы GS 50.3 — GS 250.3 с опорой и рычагом
-            </h2>
+            </h2></Link>
             <Image
               src={'/images/nepoln_red/4.png'}
               alt="Неполнооборотные редукторы GS 50.3—GS 250.3 с опорой и рычагом"

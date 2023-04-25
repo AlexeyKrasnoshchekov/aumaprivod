@@ -1,0 +1,116 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin: 3rem 0;
+    text-align: center;
+}
+.linkWrapper {
+    font-size: var(--xl);
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+.linkWrapper .icon {
+    margin-right: 1rem;
+}
+
+.link {
+    margin-left: 1rem;
+    color: var(--main);
+    text-decoration: underline;
+}
+.link:hover {
+    color: var(--gray);
+    text-decoration: none;
+}
+.listTitle {
+    text-align: center;
+    font-size: var(--l);
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 0 1.5rem;
+    font-size: var(--l);
+    line-height: 1.5rem;
+}
+.list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.list span{
+    color: var(--main);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.gradient {
+    display: block;
+    min-height: 20vh;
+    width: 100vw;
+    
+    margin-top: 3rem;
+    background: linear-gradient( transparent, lightgray);
+}
+.left80 {
+    width: 90%;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+.left60 {
+    width: 60%;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right40 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+.middleWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 10%;
+}
+.textWrapper {
+    background-color: var(--main);
+    color: var(--white);
+    padding: 0 2rem;
+}
+.text {
+    text-align: justify;
+    text-indent: 1.5rem;
+    font-size: var(--l);
+}
+.table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.cell {
+    border: 1px solid;
+    text-align: center;
+    font-size: var(--l);
+}
+.flex{
+    display: flex;
+}

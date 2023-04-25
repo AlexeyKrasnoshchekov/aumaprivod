@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
 import Head from 'next/head';
 
+
 function Klin(): JSX.Element {
   return (
     <>
@@ -110,7 +111,7 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Электроприводы SAV и SARV с ACV</h2>
+          <Link href={'/prod/mnogo/5'}><h2 className={styles.title}>Электроприводы SAV и SARV с ACV</h2></Link>
             <Image
               src={'/images/mnogo/3.1.png'}
               alt="Электроприводы SAV и SARV с ACV"
@@ -127,7 +128,7 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>Электроприводы SA-UW и SAR-UW</h2>
+          <Link href={'/prod/mnogo/6'}><h2 className={styles.title}>Электроприводы SA-UW и SAR-UW</h2></Link>
             <Image
               src={'/images/mnogo/3.2.png'}
               alt="Электроприводы SA-UW и SAR-UW"
@@ -146,9 +147,9 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>
+          <Link href={'/prod/mnogo/7'}><h2 className={styles.title}>
               Электропривод с изменяемой скоростью AUMA SEVEN
-            </h2>
+            </h2></Link>
             <Image
               src={'/images/mnogo/4.png'}
               alt="Электропривод с изменяемой скоростью AUMA SEVEN"

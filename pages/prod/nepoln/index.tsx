@@ -10,8 +10,8 @@ function Klin(): JSX.Element {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="НЕПОЛНООБОРОТНЫЕ ПИВОДЫ" />
-        <title>НЕПОЛНООБОРОТНЫЕ ПИВОДЫ</title>
+        <meta name="keywords" content="НЕПОЛНООБОРОТНЫЕ ПРИВОДЫ" />
+        <title>НЕПОЛНООБОРОТНЫЕ ПРИВОДЫ</title>
         <meta
           name="description"
           content="В соответствии со стандартом ISO 5211, неполнооборотные приводы передают крутящий момент на арматуру для ее перемещения на один поворот или меньше. Не могут выдерживать осевую нагрузку."
@@ -19,7 +19,7 @@ function Klin(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>НЕПОЛНООБОРОТНЫЕ ПИВОДЫ</h2>
+        <h2 className={styles.title}>НЕПОЛНООБОРОТНЫЕ ПРИВОДЫ</h2>
         <p className={styles.text}>
           В соответствии со стандартом ISO 5211, неполнооборотные приводы
           передают крутящий момент на арматуру для ее перемещения на один
@@ -38,7 +38,11 @@ function Klin(): JSX.Element {
         {/* <h2 className={styles.title}>Многооборотные приводы SA и SAR</h2> */}
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Неполнооборотные приводы SQ и SQR</h2>
+            <Link href={'/prod/nepoln/1'}>
+              <h2 className={styles.title}>
+                Неполнооборотные приводы SQ и SQR
+              </h2>
+            </Link>
             <Image
               src={'/images/nepoln/1.1.png'}
               alt="Неполнооборотные приводы SQ и SQR"
@@ -56,9 +60,11 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>
-              Взрывозащищенные электроприводы SQEx и SQREx
-            </h2>
+            <Link href={'/prod/nepoln/2'}>
+              <h2 className={styles.title}>
+                Взрывозащищенные электроприводы SQEx и SQREx
+              </h2>
+            </Link>
             <Image
               src={'/images/nepoln/1.2.png'}
               alt="Взрывозащищенные электроприводы SQEx и SQREx"
@@ -78,9 +84,11 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>
-              Комбинации многооборотных приводов SA с червячным редуктором GS
-            </h2>
+            <Link href={'/prod/nepoln/3'}>
+              <h2 className={styles.title}>
+                Комбинации многооборотных приводов SA с червячным редуктором GS
+              </h2>
+            </Link>
             <Image
               src={'/images/nepoln/2.1.png'}
               alt="Комбинации многооборотных приводов SA с червячным редуктором GS"
@@ -96,10 +104,12 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>
-              Взрывозащищенные неполнооборотные приводы SQEx и комбинации SA с
-              червячными редукторами GS
-            </h2>
+            <Link href={'/prod/nepoln/4'}>
+              <h2 className={styles.title}>
+                Взрывозащищенные неполнооборотные приводы SQEx и комбинации SA с
+                червячными редукторами GS
+              </h2>
+            </Link>
             <Image
               src={'/images/nepoln/2.2.png'}
               alt="Взрывозащищенные неполнооборотные приводы SQEx и комбинации SA с червячными редукторами GS"

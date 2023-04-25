@@ -44,7 +44,9 @@ function Klin(): JSX.Element {
         {/* <h2 className={styles.title}>Многооборотные приводы SA и SAR</h2> */}
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Блок управления AUMATIC АС</h2>
+            <Link href={'/prod/nepoln/1'}>
+              <h2 className={styles.title}>Блок управления AUMATIC АС</h2>
+            </Link>
             <Image
               src={'/images/controls/1.png'}
               alt="Блок управления AUMATIC АС"
@@ -60,7 +62,9 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>Блок управления AUMA MATIC AM</h2>
+            <Link href={'/prod/nepoln/2'}>
+              <h2 className={styles.title}>Блок управления AUMA MATIC AM</h2>
+            </Link>
             <Image
               src={'/images/controls/2.png'}
               alt="Блок управления AUMA MATIC AM"
@@ -78,7 +82,9 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Мастер-станция SIMA</h2>
+            <Link href={'/prod/nepoln/3'}>
+              <h2 className={styles.title}>Мастер-станция SIMA</h2>
+            </Link>
             <Image
               src={'/images/controls/3.png'}
               alt="Мастер-станция SIMA"
@@ -97,10 +103,12 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>
-              Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC
-              (ACExC)
-            </h2>
+            <Link href={'/prod/nepoln/4'}>
+              <h2 className={styles.title}>
+                Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC
+                (ACExC)
+              </h2>
+            </Link>
             <Image
               src={'/images/controls/4.png'}
               alt="Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC (ACExC)"
@@ -118,12 +126,16 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>Блоки управления AC SIL и ACEx SIL</h2>
+            <Link href={'/prod/nepoln/5'}>
+              <h2 className={styles.title}>
+                Блоки управления AC SIL и ACEx SIL
+              </h2>
+            </Link>
             <Image
               src={'/images/controls/5.png'}
               alt="Блоки управления AC SIL и ACEx SIL"
-              width={200}
-              height={160}
+              width={250}
+              height={190}
             />
             <p className={styles.text}>
               В соответствии с МЭК 61508 / МЭК 61511, для самых высоких
@@ -137,11 +149,13 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>Цифровые шины</h2>
+            <Link href={'/prod/nepoln/6'}>
+              <h2 className={styles.title}>Цифровые шины</h2>
+            </Link>
             <Image
               src={'/images/controls/6.png'}
               alt="Цифровые шины"
-              width={200}
+              width={250}
               height={205}
             />
             <p className={styles.text}>

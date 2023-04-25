@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
 import Head from 'next/head';
+import { Breadcrumb } from 'antd';
 
 function Klin(): JSX.Element {
   return (
@@ -21,6 +22,19 @@ function Klin(): JSX.Element {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <>
+      <Breadcrumb
+          items={[
+            {
+              title: <Link href={'/prod'}>Продукция</Link>,
+            },
+            {
+              title: (
+                <Link href={'/prod/mnogo'}>Многооборотные приводы</Link>
+              ),
+            },
+          ]}
+        />
       <div className={styles.wrapper}>
         <div className={styles.middleWrapper}>
           <div className={styles.left80}>
@@ -92,9 +106,8 @@ function Klin(): JSX.Element {
             </ul>
           </div>
         </div>
-
-        {/* <div className={styles.gradient}></div> */}
       </div>
+      </>
     </>
   );
 }

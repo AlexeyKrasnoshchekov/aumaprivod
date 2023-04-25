@@ -30,9 +30,11 @@ function Klin(): JSX.Element {
         {/* <h2 className={styles.title}>Многооборотные приводы SA и SAR</h2> */}
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <h2 className={styles.title}>
-              Комбинации многооборотных приводов SA с прямоходными модулями LE
-            </h2>
+            <Link href={'/prod/pryamo/1'}>
+              <h2 className={styles.title}>
+                Комбинации многооборотных приводов SA с прямоходными модулями LE
+              </h2>
+            </Link>
             <Image
               src={'/images/pryamo/1.png'}
               alt="Комбинации многооборотных приводов SA с прямоходными модулями LE"
@@ -47,7 +49,9 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <h2 className={styles.title}>Прямоходные приводы ALS</h2>
+            {/* <Link href={'/prod/pryamo/2'}>
+              <h2 className={styles.title}>Прямоходные приводы ALS</h2>
+            </Link>
             <Image
               src={'/images/pryamo/2.png'}
               alt="Прямоходные приводы ALS"
@@ -59,12 +63,10 @@ function Klin(): JSX.Element {
               срабатывания привода. В случае пропажи питанрия, арматура должна
               быть открыта или закрытта с помощью пружины. Прямоходные приводы
               ALS отвечают этому требованию
-            </p>
-          </div>
-        </div>
-        <div className={styles.middleWrapper}>
-          <div className={styles.left50}>
-            <h2 className={styles.title}>Взрывозащищенные версии</h2>
+            </p> */}
+            <Link href={'/prod/pryamo/3'}>
+              <h2 className={styles.title}>Взрывозащищенные версии</h2>
+            </Link>
             <Image
               src={'/images/pryamo/3.png'}
               alt="Взрывозащищенные версии"
@@ -80,9 +82,29 @@ function Klin(): JSX.Element {
               продукции.
             </p>
           </div>
-          <div className={styles.right50}>
-          </div>
         </div>
+        {/* <div className={styles.middleWrapper}>
+          <div className={styles.left50}>
+            <Link href={'/prod/pryamo/3'}>
+              <h2 className={styles.title}>Взрывозащищенные версии</h2>
+            </Link>
+            <Image
+              src={'/images/pryamo/3.png'}
+              alt="Взрывозащищенные версии"
+              width={150}
+              height={150}
+            />
+            <p className={styles.text}>
+              Оглядываясь в прошлое, на более чем 25 летний опыт в области
+              предохранения от взрыва, АУМА достигла всеобъемлющих технологий. С
+              этой качественной системой управления, которая была аттестована
+              согласно сертификатам ISO 9001 и CD 94/9/EC, АУМА соответствует
+              всем требованиям для производства и продажи взрывозащищенной
+              продукции.
+            </p>
+          </div>
+          <div className={styles.right50}></div>
+        </div> */}
 
         {/* <div className={styles.gradient}></div> */}
       </div>
