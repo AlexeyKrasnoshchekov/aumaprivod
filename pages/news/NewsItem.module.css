@@ -11,12 +11,19 @@
 }
 .innerWrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 2rem;
+}
+.imageFlex {
+    display: flex;
+    justify-content: space-around;
+    /* outline: 1px solid red; */
+    width: 100%;
 }
 .imageWrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
     min-height: 7rem;
     max-height: 40rem;
     min-width: 20rem;

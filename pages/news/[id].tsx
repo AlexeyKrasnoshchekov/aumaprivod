@@ -11,23 +11,22 @@ function Post(post: any) {
     <div className={styles.wrapper}>
       <h3 className={styles.title}>{post.post.title}</h3>
       <div className={styles.innerWrapper}>
-        <div className={styles.imageWrapper}>
+        <div className={styles.textWrapper}>{htmlContent && htmlContent}</div>
+        <div className={styles.imageFlex}>
           {post.post.images.length !== 0 &&
             post.post.images.map((image: any) => {
               return (
-                <Image
-                  key={post.post.id}
-                  src={image}
-                  alt="фото новости"
-                  layout="fill"
-                  className={styles.image}
-                  style={{ objectFit: 'contain' }}
-                />
+                <div key={post.post.id} className={styles.imageWrapper}>
+                  <Image
+                    src={image}
+                    alt="фото новости"
+                    layout="fill"
+                    className={styles.image}
+                    style={{ objectFit: 'contain' }}
+                  />
+                </div>
               );
             })}
-        </div>
-        <div className={styles.textWrapper}>
-          {htmlContent && htmlContent}
         </div>
       </div>
     </div>
