@@ -7,7 +7,7 @@ import { RiArrowRightSFill } from 'react-icons/ri';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Company({ posts }: any): JSX.Element {
-  const sortedPosts = posts.sort((a: Post, b: Post) => b.id - a.id);
+  // const sortedPosts = posts.sort((a: Post, b: Post) => b.id - a.id);
   return (
     <>
       <Head>
@@ -38,8 +38,8 @@ function Company({ posts }: any): JSX.Element {
                 </h4>
               </Link>
 
-              {sortedPosts &&
-                sortedPosts.map((post: Post) => (
+              {posts &&
+                posts.map((post: Post) => (
                   <div key={post.id} className={styles.newsWrapper}>
                     {post.images.length > 0 && (
                       <div className={styles.newsImageWrapper}>
@@ -248,7 +248,7 @@ export async function getStaticProps() {
 
   convData.posts = objectData.posts
     .sort((a: Post, b: Post) => {
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
+      return b.id - a.id;
     })
     .slice(0, 4);
 
