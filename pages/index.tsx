@@ -31,12 +31,12 @@ function Home({ posts, className, ...props }: any): JSX.Element {
       </Head>
       <div className={cn(className, styles.bodyWrapper)} {...props}>
         <div className={styles.bodyLeft}>
-          <Link href={'/mnogo'}>
+          <Link href={'/prod/mnogo'}>
             <Card type="privod" icon="mnogo">
               Многооборотные приводы
             </Card>
           </Link>
-          <Link href={'/controls'}>
+          <Link href={'/prod/controls'}>
             <Card type="privod" icon="controls">
               Средства управления
             </Card>
@@ -76,12 +76,12 @@ function Home({ posts, className, ...props }: any): JSX.Element {
           </Carousel>
         </div>
         <div className={styles.bodyRight}>
-          <Link href={'/nepoln'}>
+          <Link href={'/prod/nepoln'}>
             <Card type="privod" icon="nepoln">
               Неполнооборотные приводы
             </Card>
           </Link>
-          <Link href={'/pryamo'}>
+          <Link href={'/prod/pryamo'}>
             <Card type="privod" icon="pryamo">
               Прямоходные приводы
             </Card>
@@ -89,22 +89,22 @@ function Home({ posts, className, ...props }: any): JSX.Element {
         </div>
       </div>
       <div className={styles.cards}>
-        <Link href={'/rychag-red'}>
+        <Link href={'/prod/rychag-red'}>
           <Card type="privod" icon="rychag_red">
             Рычажные редукторы
           </Card>
         </Link>
-        <Link href={'/rychag'}>
+        <Link href={'/prod/rychag'}>
           <Card type="privod" icon="rychag">
             Рычажные приводы
           </Card>
         </Link>
-        <Link href={'/nepoln-red'}>
+        <Link href={'/prod/nepoln-red'}>
           <Card type="privod" icon="nepoln_red">
             Неполнооборотные редукторы
           </Card>
         </Link>
-        <Link href={'/mnogo-red'}>
+        <Link href={'/prod/mnogo-red'}>
           <Card type="privod" icon="mnogo_red">
             Многооборотные редукторы
           </Card>

@@ -6,6 +6,13 @@
 .title {
     margin: 3rem 0;
     text-align: center;
+    text-decoration: underline;
+}
+.title:hover {
+    margin: 3rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main);
 }
 .linkWrapper {
     font-size: var(--xl);
