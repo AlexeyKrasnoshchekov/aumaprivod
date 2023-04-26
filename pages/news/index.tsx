@@ -6,7 +6,7 @@ import Head from 'next/head';
 function News({ posts }: any): JSX.Element {
   // console.log('first', posts);
 
-  const sortedPosts = posts.sort((a:Post,b:Post) => b.id - a.id);
+  // const sortedPosts = posts.sort((a:Post,b:Post) => b.id - a.id);
 
   return (
     <>
@@ -20,7 +20,7 @@ function News({ posts }: any): JSX.Element {
       <div className={styles.outerWrapper}>
         <h2 className={styles.heading}>Новости компании</h2>
         <div className={styles.wrapper}>
-          {sortedPosts.map((post: Post) => {
+          {posts.map((post: Post) => {
             return (
               <div
                 key={post.id}
@@ -73,7 +73,7 @@ export async function getStaticProps() {
   let convData = { posts: [] };
 
   convData.posts = objectData.posts.sort((a: Post, b: Post) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
+    return b.id - a.id;
   });
 
   return {
