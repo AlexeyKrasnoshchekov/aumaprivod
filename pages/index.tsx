@@ -89,7 +89,7 @@ function Home({ posts, className, ...props }: any): JSX.Element {
         </div>
       </div>
       <div className={styles.cards}>
-        <Link href={'/prod/rychag-red'}>
+        <Link href={'/prod/rychag_red'}>
           <Card type="privod" icon="rychag_red">
             Рычажные редукторы
           </Card>
@@ -99,12 +99,12 @@ function Home({ posts, className, ...props }: any): JSX.Element {
             Рычажные приводы
           </Card>
         </Link>
-        <Link href={'/prod/nepoln-red'}>
+        <Link href={'/prod/nepoln_red'}>
           <Card type="privod" icon="nepoln_red">
             Неполнооборотные редукторы
           </Card>
         </Link>
-        <Link href={'/prod/mnogo-red'}>
+        <Link href={'/prod/mnogo_red'}>
           <Card type="privod" icon="mnogo_red">
             Многооборотные редукторы
           </Card>
