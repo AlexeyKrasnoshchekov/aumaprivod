@@ -62,18 +62,16 @@ function Contacts() {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <YMaps>
+          <YMaps>
               <Map
                 defaultState={{
-                  center: [52.280216571867705, 104.33866449999998],
+                  center: [61.24800656236425, 73.4841845],
                   zoom: 15,
                 }}
                 width="400px"
                 height="300px"
               >
-                <Placemark
-                  geometry={[52.280216571867705, 104.33866449999998]}
-                />
+                <Placemark geometry={[61.24800656236425, 73.4841845]} />
               </Map>
             </YMaps>
             {/* <iframe
@@ -98,18 +96,16 @@ function Contacts() {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <YMaps>
+          <YMaps>
               <Map
                 defaultState={{
-                  center: [54.98154606971653,73.32319749999995],
+                  center: [61.24800656236425, 73.4841845],
                   zoom: 15,
                 }}
                 width="400px"
                 height="300px"
               >
-                <Placemark
-                  geometry={[54.98154606971653,73.32319749999995]}
-                />
+                <Placemark geometry={[61.24800656236425, 73.4841845]} />
               </Map>
             </YMaps>
             {/* <iframe
@@ -137,15 +133,13 @@ function Contacts() {
           <YMaps>
               <Map
                 defaultState={{
-                  center: [57.14909856754112,65.54906],
+                  center: [61.24800656236425, 73.4841845],
                   zoom: 15,
                 }}
                 width="400px"
                 height="300px"
               >
-                <Placemark
-                  geometry={[57.14909856754112,65.54906]}
-                />
+                <Placemark geometry={[61.24800656236425, 73.4841845]} />
               </Map>
             </YMaps>
             {/* <iframe
