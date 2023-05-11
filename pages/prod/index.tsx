@@ -10,15 +10,6 @@ import { useMediaQuery } from 'react-responsive';
 
 function Products(): JSX.Element {
   const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
-  const paddingTop = classNames({
-    paddingTop: isBigScreen && '3rem',
-  });
-  const marginBottom = classNames({
-    marginBottom: !isBigScreen && '3rem'
-  });
-  const marginTop = classNames({
-    marginTop: !isBigScreen && '3rem'
-  });
   return (
     <>
       <Head>
@@ -27,7 +18,7 @@ function Products(): JSX.Element {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={classNames(styles.wrapper, paddingTop)}>
+      <div className={styles.wrapper} style={{paddingTop: isBigScreen ? '3rem' : ""}}>
         <div className={styles.innerWrapper}>
           <div className={classNames(styles.screen)}>
             <div className={styles.screenWrapper}>
@@ -35,9 +26,9 @@ function Products(): JSX.Element {
                 <div
                   className={classNames(
                     styles.screenInner,
-                    styles.linearToLeft,
-                    marginBottom
+                    styles.linearToLeft
                   )}
+                  style={{marginBottom: !isBigScreen ? '3rem' : ""}}
                 >
                   <span className={styles.icon}>
                     <Image
@@ -61,6 +52,7 @@ function Products(): JSX.Element {
                     styles.screenInner,
                     styles.linearToLeft
                   )}
+                  
                 >
                   <span className={styles.icon}>
                     <Image
@@ -94,9 +86,7 @@ function Products(): JSX.Element {
                 {/* </div> */}
               </div>
             </div>
-            <div
-              className={classNames(styles.screenMiddle, marginTop)}
-            >
+            <div className={styles.screenMiddle} style={{marginTop: !isBigScreen ? '3rem' : ""}}>
               <div
                 className={classNames(styles.screenInner, styles.linearToLeft)}
               >
@@ -152,9 +142,7 @@ function Products(): JSX.Element {
             )}
             // style={{ backgroundImage: 'url(/images/prod2.png)' }}
           >
-            <div
-              className={classNames(styles.screenMiddle, marginBottom)}
-            >
+            <div className={styles.screenMiddle} style={{marginBottom: !isBigScreen ? '3rem' : ""}}>
               <div
                 className={classNames(styles.screenInner, styles.linearToLeft)}
               >
@@ -210,13 +198,15 @@ function Products(): JSX.Element {
                 />
                 {/* </div> */}
               </div>
-              <div className={styles.width40Lower}>
+              <div
+                className={styles.width40Lower}
+              >
                 <div
                   className={classNames(
                     styles.screenInner,
-                    styles.linearToRight,
-                    marginBottom
+                    styles.linearToRight
                   )}
+                  style={{marginBottom: !isBigScreen ? '3rem' : ""}}
                 >
                   <span className={styles.icon}>
                     <Image
