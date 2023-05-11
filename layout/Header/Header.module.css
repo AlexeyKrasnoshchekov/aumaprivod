@@ -21,7 +21,9 @@
     min-height: 8.1rem;
     align-items: center;
     justify-content: center;
-    /* border: 0px solid red; */
+    color: var(--secondary);
+    font-size: var(--xxl);
+    font-weight: 600;
 }
 .headerCenter {
     grid-area: headerCenter;
@@ -43,6 +45,7 @@
 
 .headerLink {
     color: var(--white);
+    transition: 0.3s;
 }
 .headerLink:hover {
     color: var(--main);
@@ -91,6 +94,7 @@
     border-right-width: 1px;
     border-right-style: solid;
     border-right-color: var(--white);
+    transition: 0.3s;
 }
 .headerMenuItem:first-child {
     border-left-width: 1px;

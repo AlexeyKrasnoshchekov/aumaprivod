@@ -131,17 +131,21 @@ background-color: #186fb1;
 
 @media (min-width: 1400px) {
 .bodyWrapper {
-
-  /* outline: 2px solid blue; */
-  grid-template-columns: 27.5vw auto;
+  padding-top: calc(17% - 15rem);
+  /* grid-template-columns: 27.5vw auto; */
 }
 
-.slide {
-  /* max-width: 11rem; */
-  height: 18rem;
-}
+
 .slideMain {
   /* max-width: 39rem; */
-  height: 28rem;
+  height: 32rem;
+}
+.bodyLeft,.bodyRight {
+  padding-bottom: 2.5rem;
+
+}
+.cards {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 }

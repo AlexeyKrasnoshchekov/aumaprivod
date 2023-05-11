@@ -36,15 +36,35 @@
     display: flex;
     flex-direction: column;
 }
-.width40 {
-    width: 40%;
+.width40Upper {
+    /* margin-top: 3rem;
+     */
 }
-.width60 {
+.width40Lower {
+    margin-bottom: 3rem;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    align-items: flex-end;
+}
+.screenWrapper {
+    display: flex;
+    min-height: 150%;
+}
+.width40Upper,.width40Lower {
+    width: 40%;
+    /* display: 'flex';
+    align-items: 'flex-end';
+    flex-direction: 'column';
+    justify-content: 'flex-end'; */
+}
+.width60Upper,.width60Lower {
     width: 60%;
     padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 100%;
 }
 .screenLeft {
     align-items: flex-start;
@@ -53,40 +73,79 @@
     align-items: flex-end;
 }
 .screenInner {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3%;
     /* margin-bottom: 5%; */
     width: 30rem;
+    /* border-radius: 1rem; */
 }
 .screenMiddle {
     display: flex;
     justify-content: space-between;
 }
-.picture {
-    /* width: 10%;
-    height: 10%; */
-    /* margin-left: 10%; */
-}
 .link {
     text-decoration: underline;
+    font-size: var(--l);
 }
 .link:hover {
     text-decoration: none;
     color: white;
 }
 .linearToLeft {
-    background: linear-gradient(to left, transparent, #006EAB);
+    background: linear-gradient(to left, #e7eaef, #006EAB);
 }
 .linearToRight {
-    background: linear-gradient(to right, transparent, #006EAB);
+    background: linear-gradient(to right, #e7eaef, #006EAB);
 }
 .backgroundColor {
     background-color: #006EAB;
 }
 .image {
     position: relative !important;
-  object-fit: contain;
+    object-fit: contain;
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        padding: 0 5%;
+    }
+    .image {
+        position: relative !important;
+        object-fit: cover;
+    }
+    .width40Upper,.width40Lower {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .width60Upper {
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .width60Lower {
+        padding-right: 6%;
+        padding-left: 0;
+    }
+    .width40Lower {
+        align-items: flex-end;
+        margin-top: 3rem;
+    }
+    .width40Upper {
+        margin-bottom: 3rem;
+    }
+    /* .linearToLeft {
+        margin-bottom: 3rem;
+    } */
+    /* .width40Upper,.width40Lower {
+        width: 40%;
+        display: 'flex';
+        align-items: 'flex-end';
+        flex-direction: 'column';
+        justify-content: 'flex-end';
+    }
+    .width40Upper {
+        justify-content: 'space-between' !important;
+    } */
 }

@@ -23,6 +23,7 @@ type MenuItem = {
 };
 
 function Docs({files}:any): JSX.Element {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
   const [menuItem, setMenuItem] = useState(1);
   const [menuFiles, setMenuFiles] = useState<any>([]);
 
@@ -182,7 +183,7 @@ function Docs({files}:any): JSX.Element {
                 mode="inline"
                 defaultSelectedKeys={['1']}
                 defaultOpenKeys={['sub1']}
-                style={{ height: '100%', borderRight: 0 }}
+                style={{ height: '100%', borderRight: 0,fontSize: isBigScreen ? '1.2rem' : '1rem' }}
                 items={items2}
                 onClick={({ key }) => handleMenuItemClick(key)}
               />
@@ -226,6 +227,7 @@ export default Docs;
 
 import fsPromises from 'fs/promises';
 import path from 'path';
+import { useMediaQuery } from 'react-responsive';
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'docs.json');
   const jsonData = await fsPromises.readFile(filePath);

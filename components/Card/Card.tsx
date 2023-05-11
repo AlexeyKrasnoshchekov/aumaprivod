@@ -1,10 +1,9 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { CardProps } from './Card.props';
 import styles from './Card.module.css';
 import cn from 'classnames';
-
 import Image from 'next/image';
-import { MdAir } from 'react-icons/md';
 
 const Card = ({
   children,
@@ -13,6 +12,8 @@ const Card = ({
   icon = 'none',
   ...props
 }: CardProps) => {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
+
   return (
     <div className={cn(styles.card, className)} {...props}>
       {type === 'privod' && (
@@ -22,8 +23,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/mnogo.png'}
                 alt="МНОГООБОРОТНЫЕ ПРИВОДЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -32,8 +33,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/nepoln.png'}
                 alt="НЕПОЛНООБОРОТНЫЕ ПИВОДЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -42,8 +43,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/pryamo.png'}
                 alt="ПРЯМОХОДНЫЕ ПРИВОДЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -52,8 +53,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/rychag.png'}
                 alt="РЫЧАЖНЫЕ ПРИВОДЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -62,8 +63,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/nepoln_red.png'}
                 alt="НЕПОЛНООБОРОТНЫЕ РЕДУКТОРЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -72,8 +73,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/mnogo_red.png'}
                 alt="МНОГООБОРОТНЫЕ РЕДУКТОРЫ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -82,8 +83,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/controls.png'}
                 alt="СРЕДСТВА УПРАВЛЕНИЯ"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}
@@ -92,8 +93,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/rychag_red.png'}
                 alt="Рычажные редукторы"
-                width={60}
-                height={60}
+                width={isBigScreen ? 80 : 60}
+                height={isBigScreen ? 80 : 60}
               />
             </span>
           )}

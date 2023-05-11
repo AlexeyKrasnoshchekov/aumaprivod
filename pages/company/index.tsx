@@ -1,12 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import cn from 'classnames';
+import { useMediaQuery } from 'react-responsive';
 import styles from './Company.module.css';
 import { withLayout } from '@/layout/Layout';
 import { RiArrowRightSFill } from 'react-icons/ri';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Company({ posts }: any): JSX.Element {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
   // const sortedPosts = posts.sort((a: Post, b: Post) => b.id - a.id);
   return (
     <>
@@ -17,7 +19,7 @@ function Company({ posts }: any): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.wrapper}>
-        <h4 className={styles.title}>
+        <h4 className={styles.titleMain}>
           Компания ООО «АумаПриводСервис» с 2007 года занимается продажами,
           сервисным обслуживанием и технической поддержкой оборудования компании
           AUMA Riester GmbH» Германия
@@ -131,8 +133,8 @@ function Company({ posts }: any): JSX.Element {
                 src={'/images/about.jpg'}
                 alt="фото сфер деятельности компании"
                 //   fill
-                width={600}
-                height={270}
+                width={isBigScreen ? 800 : 600}
+                height={isBigScreen ? 350 : 270}
                 quality={100}
                 className={styles.image}
               />
@@ -215,7 +217,7 @@ function Company({ posts }: any): JSX.Element {
                 9508413.
               </p>
               <p className={styles.parag}>
-                Рудых Антон – сервисный инженер +7 914 9490764, г. Иркутск.
+                Рудых Антон – сервисный инженер +7 914 9279522, г. Иркутск.
               </p>
             </div>
             <p>

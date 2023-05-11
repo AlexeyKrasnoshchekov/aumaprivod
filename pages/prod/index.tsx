@@ -5,10 +5,11 @@ import styles from './Products.module.css';
 import { withLayout } from '@/layout/Layout';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Link from 'next/link';
-import Card from '@/components/Card/Card';
 import classNames from 'classnames';
+import { useMediaQuery } from 'react-responsive';
 
 function Products(): JSX.Element {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
   return (
     <>
       <Head>
@@ -17,24 +18,24 @@ function Products(): JSX.Element {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} style={{paddingTop: isBigScreen && '3rem'}}>
         <div className={styles.innerWrapper}>
           <div className={classNames(styles.screen)}>
-            <div style={{ display: 'flex' }}>
-              <div className={styles.width40}>
+            <div className={styles.screenWrapper}>
+              <div className={styles.width40Upper}>
                 <div
                   className={classNames(
                     styles.screenInner,
                     styles.linearToLeft
                   )}
-                  style={{ marginBottom: '3rem' }}
+                  style={{marginBottom: !isBigScreen && '3rem'}}
                 >
                   <span className={styles.icon}>
                     <Image
                       src={'/images/privod_cards/mnogo.png'}
                       alt="МНОГООБОРОТНЫЕ ПРИВОДЫ"
-                      width={120}
-                      height={120}
+                      width={isBigScreen ? 120 : 90}
+                      height={isBigScreen ? 120 : 90}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/mnogo'}>
@@ -51,14 +52,14 @@ function Products(): JSX.Element {
                     styles.screenInner,
                     styles.linearToLeft
                   )}
-                  style={{ marginBottom: '3rem' }}
+                  
                 >
                   <span className={styles.icon}>
                     <Image
                       src={'/images/privod_cards/controls.png'}
                       alt="Средства управления"
-                      width={90}
-                      height={90}
+                      width={isBigScreen ? 120 : 90}
+                      height={isBigScreen ? 120 : 90}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/controls'}>
@@ -72,7 +73,7 @@ function Products(): JSX.Element {
                   </p>
                 </div>
               </div>
-              <div className={styles.width60}>
+              <div className={styles.width60Upper}>
                 {/* <div className={styles.picture}> */}
                 <Image
                   src={'/images/prod1.png'}
@@ -85,7 +86,7 @@ function Products(): JSX.Element {
                 {/* </div> */}
               </div>
             </div>
-            <div className={styles.screenMiddle}>
+            <div className={styles.screenMiddle} style={{marginTop: !isBigScreen && '3rem'}}>
               <div
                 className={classNames(styles.screenInner, styles.linearToLeft)}
               >
@@ -93,8 +94,8 @@ function Products(): JSX.Element {
                   <Image
                     src={'/images/privod_cards/nepoln.png'}
                     alt="Неполнооборотные приводы"
-                    width={90}
-                    height={90}
+                    width={isBigScreen ? 120 : 90}
+                    height={isBigScreen ? 120 : 90}
                   />
                 </span>
                 <Link className={styles.link} href={'/prod/nepoln'}>
@@ -113,8 +114,8 @@ function Products(): JSX.Element {
                   <Image
                     src={'/images/privod_cards/pryamo.png'}
                     alt="Прямоходные приводы"
-                    width={90}
-                    height={90}
+                    width={isBigScreen ? 120 : 90}
+                    height={isBigScreen ? 120 : 90}
                   />
                 </span>
                 <Link className={styles.link} href={'/prod/pryamo'}>
@@ -141,7 +142,7 @@ function Products(): JSX.Element {
             )}
             // style={{ backgroundImage: 'url(/images/prod2.png)' }}
           >
-            <div className={styles.screenMiddle}>
+            <div className={styles.screenMiddle} style={{marginBottom: !isBigScreen && '3rem'}}>
               <div
                 className={classNames(styles.screenInner, styles.linearToLeft)}
               >
@@ -149,8 +150,8 @@ function Products(): JSX.Element {
                   <Image
                     src={'/images/privod_cards/nepoln_red.png'}
                     alt="Неполнооборотные редукторы"
-                    width={90}
-                    height={90}
+                    width={isBigScreen ? 120 : 90}
+                    height={isBigScreen ? 120 : 90}
                   />
                 </span>
                 <Link className={styles.link} href={'/prod/nepoln_red'}>
@@ -169,8 +170,8 @@ function Products(): JSX.Element {
                   <Image
                     src={'/images/privod_cards/mnogo_red.png'}
                     alt="Многооборотные редукторы"
-                    width={90}
-                    height={90}
+                    width={isBigScreen ? 120 : 90}
+                    height={isBigScreen ? 120 : 90}
                   />
                 </span>
                 <Link className={styles.link} href={'/prod/mnogo_red'}>
@@ -185,7 +186,7 @@ function Products(): JSX.Element {
               </div>
             </div>
             <div style={{ display: 'flex' }}>
-              <div className={styles.width60} style={{ padding: '0 3%' }}>
+              <div className={styles.width60Lower}>
                 {/* <div className={styles.picture}> */}
                 <Image
                   src={'/images/prod2.png'}
@@ -198,27 +199,21 @@ function Products(): JSX.Element {
                 {/* </div> */}
               </div>
               <div
-                className={styles.width40}
-                style={{
-                  display: 'flex',
-                  alignItems: 'flex-end',
-                  flexDirection: 'column',
-                  justifyContent: 'flex-end',
-                }}
+                className={styles.width40Lower}
               >
                 <div
                   className={classNames(
                     styles.screenInner,
                     styles.linearToRight
                   )}
-                  style={{ marginTop: '3rem', marginBottom: '3rem' }}
+                  style={{marginBottom: !isBigScreen && '3rem'}}
                 >
                   <span className={styles.icon}>
                     <Image
                       src={'/images/privod_cards/rychag_red.png'}
                       alt="Рычажные редукторы"
-                      width={90}
-                      height={90}
+                      width={isBigScreen ? 120 : 90}
+                      height={isBigScreen ? 120 : 90}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/rychag_red'}>
@@ -240,8 +235,8 @@ function Products(): JSX.Element {
                     <Image
                       src={'/images/privod_cards/rychag.png'}
                       alt="Рычажные приводы"
-                      width={90}
-                      height={90}
+                      width={isBigScreen ? 120 : 90}
+                      height={isBigScreen ? 120 : 90}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/rychag'}>

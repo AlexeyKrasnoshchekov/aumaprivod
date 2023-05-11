@@ -17,21 +17,16 @@
     width: 100%;
     padding: 1rem 4rem;
     margin-bottom: 2rem;
-    background-color: aqua;
+    background-color: #c1cad6;
     border-radius: 0.5rem;
     font-weight: 600;
-}
-.innerWrapper:last-child {
-    border-bottom: none !important;
-    background: linear-gradient(aqua, #006EAF);
+    transition: 0.3s;
 }
 
-.innerWrapper:first-child {
-    background: linear-gradient(#006EAF, aqua);
-}
 .innerWrapper:hover {
     background: #006EAF;
     color: white;
+    cursor: pointer;
 }
 .heading {
     font-size: var(--xxxl);

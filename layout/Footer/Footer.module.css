@@ -32,15 +32,6 @@
     flex-direction: column;
     align-items: center;
 }
-.link {
-    text-transform: uppercase;
-    text-decoration: underline;
-    /* text-align: center; */
-}
-.link:hover {
-    color: lightgray;
-    text-decoration: none;
-}
 
 @media (max-width: 765px) {
     .footerWrapper {

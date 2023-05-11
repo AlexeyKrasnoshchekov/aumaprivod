@@ -8,7 +8,7 @@
     padding-bottom: 5%;
 }
 
-.title {
+.title,.titleMain {
     text-align: center;
 }
 .parag {
@@ -81,4 +81,19 @@
 }
 .newsHeader:hover {
     color: var(--main);
+}
+
+@media (min-width: 1400px) {
+    .titleMain {
+        margin: 2rem 0;
+        font-size: var(--l);
+        padding: 0 2rem;
+    }
+    .left {
+        width: 20%;
+        margin-right: 5%;
+    }
+    .newsTitle {
+        font-size: var(--norm);
+      }
 }

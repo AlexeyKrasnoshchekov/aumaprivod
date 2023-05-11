@@ -14,12 +14,13 @@ const Header = ({ className, ...props }: HeaderProps) => {
       <div className={cn(className, styles.headerWrapper)} {...props}>
         <div className={styles.headerLeft}>
           <Link href={'/'}>
-            <Image
+            {/* <Image
               src={'/images/logo.webp'}
               alt="лого аумаприводсервис"
               width={313}
               height={61}
-            />
+            /> */}
+            АумаПриводСервис
           </Link>
         </div>
         <div className={styles.headerCenter}>
@@ -38,16 +39,44 @@ const Header = ({ className, ...props }: HeaderProps) => {
         </div>
         <div className={styles.headerRight}>Электроприводы AUMA</div>
         <div className={styles.headerMenu}>
-          <Link href={'/company'} style={{backgroundColor: router.pathname.includes('/company') ? '#3A3A3A' : '#006EAB'}}>
+          <Link
+            href={'/company'}
+            style={{
+              backgroundColor: router.pathname.includes('/company')
+                ? '#3A3A3A'
+                : '#006EAB',
+            }}
+          >
             <div className={styles.headerMenuItem}>Компания</div>
           </Link>
-          <Link href={'/prod'} style={{backgroundColor: router.pathname.includes('/prod') ? '#3A3A3A' : '#006EAB'}}>
+          <Link
+            href={'/prod'}
+            style={{
+              backgroundColor: router.pathname.includes('/prod')
+                ? '#3A3A3A'
+                : '#006EAB',
+            }}
+          >
             <div className={styles.headerMenuItem}>Продукция</div>
           </Link>
-          <Link href={'/docs'} style={{backgroundColor: router.pathname.includes('/docs') ? '#3A3A3A' : '#006EAB'}}>
+          <Link
+            href={'/docs'}
+            style={{
+              backgroundColor: router.pathname.includes('/docs')
+                ? '#3A3A3A'
+                : '#006EAB',
+            }}
+          >
             <div className={styles.headerMenuItem}>Документация</div>
           </Link>
-          <Link href={'/contacts'} style={{backgroundColor: router.pathname.includes('/contacts') ? '#3A3A3A' : '#006EAB'}}>
+          <Link
+            href={'/contacts'}
+            style={{
+              backgroundColor: router.pathname.includes('/contacts')
+                ? '#3A3A3A'
+                : '#006EAB',
+            }}
+          >
             <div className={styles.headerMenuItem}>Контакты</div>
           </Link>
         </div>
