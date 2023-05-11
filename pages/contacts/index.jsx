@@ -4,8 +4,9 @@ import Image from 'next/image';
 import cn from 'classnames';
 import styles from './Contact.module.css';
 import { withLayout } from '@/layout/Layout';
+import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
-function Contacts(): JSX.Element {
+function Contacts() {
   return (
     <>
       <Head>
@@ -27,12 +28,24 @@ function Contacts(): JSX.Element {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <iframe
+            <YMaps>
+              <Map
+                defaultState={{
+                  center: [61.24800656236425, 73.4841845],
+                  zoom: 15,
+                }}
+                width="400px"
+                height="300px"
+              >
+                <Placemark geometry={[61.24800656236425, 73.4841845]} />
+              </Map>
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3A9eb300ee438b407ddcbe609b84c0104937c914f9ef5a5ff4c401295d8b300da7&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className={styles.innerWrapper}>
@@ -40,8 +53,7 @@ function Contacts(): JSX.Element {
             Обособленное подразделение ООО "АумаПриводСервис"&nbsp;г.Иркутск
           </h4>
           <div className={styles.address}>
-            664009, г.Иркутск, улица
-            Советская, дом 109, офис 313 Б
+            664009, г.Иркутск, улица Советская, дом 109, офис 313 Б
           </div>
           <div className={styles.tel}>
             <strong>Тел.:</strong> (3952) 27-01-87, 27-01-89, 99-87-93
@@ -50,12 +62,26 @@ function Contacts(): JSX.Element {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <iframe
+            <YMaps>
+              <Map
+                defaultState={{
+                  center: [52.280216571867705, 104.33866449999998],
+                  zoom: 15,
+                }}
+                width="400px"
+                height="300px"
+              >
+                <Placemark
+                  geometry={[52.280216571867705, 104.33866449999998]}
+                />
+              </Map>
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0e3830ac4ead1444ab07d292eba01dc73efb9c8b8c9a8009b2b8bf37799ed02&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className={styles.innerWrapper}>
@@ -72,12 +98,26 @@ function Contacts(): JSX.Element {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <iframe
+            <YMaps>
+              <Map
+                defaultState={{
+                  center: [54.98154606971653,73.32319749999995],
+                  zoom: 15,
+                }}
+                width="400px"
+                height="300px"
+              >
+                <Placemark
+                  geometry={[54.98154606971653,73.32319749999995]}
+                />
+              </Map>
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Add560a00ffec987ce0ff0d53cf7d213976b4367b6738ca37f7a86d7d9226bc5d&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className={styles.innerWrapper}>
@@ -94,12 +134,26 @@ function Contacts(): JSX.Element {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <iframe
+          <YMaps>
+              <Map
+                defaultState={{
+                  center: [57.14909856754112,65.54906],
+                  zoom: 15,
+                }}
+                width="400px"
+                height="300px"
+              >
+                <Placemark
+                  geometry={[57.14909856754112,65.54906]}
+                />
+              </Map>
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad3713db04d3ffd8bf453014ae3e141ae5369ae938a3a32f4ce0341c91302dcad&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
