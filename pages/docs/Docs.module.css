@@ -21,10 +21,6 @@
     background-color: white;
     /* width: 25%; */
 }
-/* .sider {
-    background-color: white;
-    width: 25%;
-} */
 .title {
     text-align: center;
 }
@@ -107,4 +103,10 @@
 .link:hover {
     color: var(--main);
     text-decoration: underline;
+}
+
+@media (min-width: 1400px) {
+    .innerWrapper {
+        font-size: var(--m);
+    }
 }
