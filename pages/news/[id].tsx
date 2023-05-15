@@ -3,6 +3,7 @@ import styles from './NewsItem.module.css';
 import Image from 'next/image';
 import parse from 'html-react-parser';
 import Link from 'next/link';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Post(post: any) {
   const htmlContent = post.post.content && parse(post.post.content);
