@@ -2,7 +2,6 @@ import React from 'react';
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
 export default function map({city}) {
-    console.log('first', city);
   switch (city) {
     case 'Сургут':
       <YMaps>
