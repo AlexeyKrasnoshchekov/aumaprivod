@@ -34,8 +34,8 @@ function Products(): JSX.Element {
                     <Image
                       src={'/images/privod_cards/mnogo.png'}
                       alt="МНОГООБОРОТНЫЕ ПРИВОДЫ"
-                      width={isBigScreen ? 120 : 90}
-                      height={isBigScreen ? 120 : 90}
+                      width={isBigScreen ? 150 : 120}
+                      height={isBigScreen ? 150 : 120}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/mnogo'}>

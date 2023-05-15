@@ -27,16 +27,9 @@ function Docs({files}:any): JSX.Element {
   const [menuItem, setMenuItem] = useState(1);
   const [menuFiles, setMenuFiles] = useState<any>([]);
 
-  console.log('files', files);
-
- 
-
   useEffect(() => {
-    console.log('menuItem555', menuItem);
-    console.log('files555', files);
     setMenuFiles([]);
     let curFile = files.find((elem:any) => elem.id === menuItem);
-    console.log('curFile', curFile);
     curFile &&
       curFile.files.forEach((file:any) =>
         setMenuFiles((oldArray: any) => [...oldArray, file])
@@ -124,11 +117,7 @@ function Docs({files}:any): JSX.Element {
     };
   });
 
-  console.log('menuItem', menuItem);
-
   const handleMenuItemClick = (key: string) => {
-    console.log('key', key);
-    console.log('items2', items2);
     
     let menuItem1: any;
 
@@ -144,7 +133,6 @@ function Docs({files}:any): JSX.Element {
     }
 
     if (menuItem1 && menuItem1.key !== menuItem) {
-      console.log('first', menuItem1);
       setMenuFiles([]);
       setMenuItem(menuItem1.key);
     }

@@ -44,7 +44,7 @@
 }
 
 .headerLink {
-    color: var(--white);
+    color: var(--secondary);
     transition: 0.3s;
 }
 .headerLink:hover {

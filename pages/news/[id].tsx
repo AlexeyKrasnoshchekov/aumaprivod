@@ -13,7 +13,7 @@ function Post(post: any) {
       <div className={styles.innerWrapper}>
         <div className={styles.textWrapper}>{htmlContent && htmlContent}</div>
         <div className={styles.imageFlex}>
-          {post.post.images.length !== 0 &&
+          {post.post.images.length === 0 ? (
             post.post.images.map((image: any) => {
               return (
                 <div key={post.post.id} className={styles.imageWrapper}>
@@ -26,7 +26,31 @@ function Post(post: any) {
                   />
                 </div>
               );
-            })}
+            })
+          ) : (
+            <Carousel
+              useKeyboardArrows={true}
+              showArrows={true}
+              showStatus={false}
+              autoPlay={false}
+              showThumbs={false}
+              swipeable={true}
+            >
+              {post.post.images.map((image: any) => {
+                return (
+                  <div key={post.post.id} className={styles.imageWrapper}>
+                    <Image
+                      src={image}
+                      alt="фото новости"
+                      layout="fill"
+                      className={styles.image}
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
+                );
+              })}
+            </Carousel>
+          )}
         </div>
       </div>
     </div>
@@ -40,6 +64,7 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import { Post, Posts } from '@/interfaces/post.interface';
 import { withLayout } from '@/layout/Layout';
+import { Carousel } from 'react-responsive-carousel';
 export async function getStaticProps(context: any) {
   const params = context.params;
   const id = params.id;

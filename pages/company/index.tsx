@@ -42,7 +42,7 @@ function Company({ posts }: any): JSX.Element {
 
               {posts &&
                 posts.map((post: Post) => (
-                  <div key={post.id} className={styles.newsWrapper}>
+                  <div key={post.id} className={styles.newsWrapper} style={{maxWidth: '300px'}}>
                     {post.images.length > 0 && (
                       <div className={styles.newsImageWrapper}>
                         <Image
