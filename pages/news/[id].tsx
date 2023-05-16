@@ -36,16 +36,19 @@ function Post(post: any) {
               autoPlay={false}
               showThumbs={false}
               swipeable={true}
+              // centerMode={true}
+              // centerSlidePercentage={100}
             >
               {post.post.images.map((image: any) => {
                 return (
-                  <div key={post.post.id} className={styles.imageWrapper}>
+                  <div key={post.post.id}>
                     <Image
                       src={image}
                       alt="фото новости"
-                      layout="fill"
+                      // layout="fill"
+                      width={640}
+                      height={560}
                       className={styles.image}
-                      style={{ objectFit: 'contain' }}
                     />
                   </div>
                 );

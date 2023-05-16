@@ -28,7 +28,7 @@ function Contacts() {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            <YMaps>
+            {/* <YMaps>
               <Map
                 defaultState={{
                   center: [61.24800656236425, 73.4841845],
@@ -39,13 +39,13 @@ function Contacts() {
               >
                 <Placemark geometry={[61.24800656236425, 73.4841845]} />
               </Map>
-            </YMaps>
-            {/* <iframe
+            </YMaps> */}
+            <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3A9eb300ee438b407ddcbe609b84c0104937c914f9ef5a5ff4c401295d8b300da7&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe> */}
+            ></iframe>
           </div>
         </div>
         <div className={styles.innerWrapper}>

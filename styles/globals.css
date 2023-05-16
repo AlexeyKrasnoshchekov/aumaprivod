@@ -28,6 +28,16 @@ a {
 	box-sizing: border-box;
 }
 
+.control-arrow {
+    /* background-color: black !important; */
+    background: var(--main) !important;
+	opacity: 0.5 !important;
+}
+.carousel {
+	max-height: 480px;
+	max-width: 850px;
+}
+
 :root {
 	--black: #3B434E;
 	--gray: #99a1af;
