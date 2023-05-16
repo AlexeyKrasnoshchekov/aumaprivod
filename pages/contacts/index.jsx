@@ -28,7 +28,7 @@ function Contacts() {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            {/* <YMaps>
+            <YMaps>
               <Map
                 defaultState={{
                   center: [61.24800656236425, 73.4841845],
@@ -39,13 +39,13 @@ function Contacts() {
               >
                 <Placemark geometry={[61.24800656236425, 73.4841845]} />
               </Map>
-            </YMaps> */}
-            <iframe
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3A9eb300ee438b407ddcbe609b84c0104937c914f9ef5a5ff4c401295d8b300da7&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className={styles.innerWrapper}>
@@ -98,7 +98,7 @@ function Contacts() {
             <strong>E-mail:</strong> auma@aumaprivod.ru
           </div>
           <div className={styles.map}>
-            {/* <YMaps>
+            <YMaps>
               <Map
                 defaultState={{
                   center: [54.98154606971653,73.32319749999995],
@@ -111,13 +111,13 @@ function Contacts() {
                   geometry={[54.98154606971653,73.32319749999995]}
                 />
               </Map>
-            </YMaps> */}
-            <iframe
+            </YMaps>
+            {/* <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Add560a00ffec987ce0ff0d53cf7d213976b4367b6738ca37f7a86d7d9226bc5d&amp;source=constructor"
               width="400"
               height="300"
               frameBorder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className={styles.innerWrapper}>
