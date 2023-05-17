@@ -164,7 +164,7 @@ function Home({ posts,service,className, ...props }: any): JSX.Element {
           </p>
         </div>
         <div className={styles.bodyNews}>
-          <Link href={'/company/#consultation'}>
+          <Link href={'/company#consultation'}>
             <h4
               className={styles.newsHeader}
               style={{

@@ -16,13 +16,13 @@ function Company({ posts }: any): JSX.Element {
 
   useEffect(() => {
     console.log('router.asPath',router.asPath);
-    router.asPath === '/company#consultation' && setIsConsultation(true);
+    router.asPath === '/company#consultation' ? setIsConsultation(true) : setIsConsultation(false);
   }, []);
 
   useEffect(() => {
     console.log('isConsultation',isConsultation);
     // router.push('/company');
-    scrollTargetElementRef.current?.scrollIntoView({ behavior: 'smooth' });
+    isConsultation && scrollTargetElementRef.current?.scrollIntoView({ behavior: 'smooth' });
     // router.url = '/company';
   }, [isConsultation, router]);
 

@@ -58,8 +58,8 @@ function Products(): JSX.Element {
                     <Image
                       src={'/images/privod_cards/controls.png'}
                       alt="Средства управления"
-                      width={isBigScreen ? 120 : 90}
-                      height={isBigScreen ? 120 : 90}
+                      width={isBigScreen ? 150 : 120}
+                      height={isBigScreen ? 150 : 120}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/controls'}>
@@ -212,8 +212,8 @@ function Products(): JSX.Element {
                     <Image
                       src={'/images/privod_cards/rychag_red.png'}
                       alt="Рычажные редукторы"
-                      width={isBigScreen ? 120 : 90}
-                      height={isBigScreen ? 120 : 90}
+                      width={isBigScreen ? 150 : 120}
+                      height={isBigScreen ? 150 : 120}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/rychag_red'}>
@@ -235,8 +235,8 @@ function Products(): JSX.Element {
                     <Image
                       src={'/images/privod_cards/rychag.png'}
                       alt="Рычажные приводы"
-                      width={isBigScreen ? 120 : 90}
-                      height={isBigScreen ? 120 : 90}
+                      width={isBigScreen ? 150 : 120}
+                      height={isBigScreen ? 150 : 120}
                     />
                   </span>
                   <Link className={styles.link} href={'/prod/rychag'}>
