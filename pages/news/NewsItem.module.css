@@ -28,7 +28,6 @@
 }
 .imageWrapper {
     display: flex;
-    outline: 1px solid red;
     min-height: 7rem;
     max-height: 60rem;
     /* min-width: 20rem; */

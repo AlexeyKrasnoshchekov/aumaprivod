@@ -37,6 +37,9 @@ a {
 	max-height: 480px;
 	max-width: 850px;
 }
+ul {
+	font-size: 1.3rem !important;
+}
 
 :root {
 	--black: #3B434E;

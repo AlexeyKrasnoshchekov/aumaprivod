@@ -4,17 +4,39 @@ import Image from 'next/image';
 import parse from 'html-react-parser';
 import Link from 'next/link';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { useRouter } from 'next/router';
 
 function Post(post: any) {
   const htmlContent = post.post.content && parse(post.post.content);
-
+  const router = useRouter();
+  console.log('first', router.asPath);
   return (
     <div className={styles.wrapper}>
       <h3 className={styles.title}>{post.post.title}</h3>
       <div className={styles.innerWrapper}>
         <div className={styles.textWrapper}>{htmlContent && htmlContent}</div>
+        {/* {router.asPath.includes('/news/9') && (
+          <div style={{width:'80%'}}>
+            <Image
+              src={post.post.images[2]}
+              alt="фото новости"
+              // layout="fill"
+              width={640}
+              height={560}
+              className={styles.image}
+            />
+            <Image
+              src={post.post.images[3]}
+              alt="фото новости"
+              // layout="fill"
+              width={640}
+              height={560}
+              className={styles.image}
+            />
+          </div>
+        )} */}
         <div className={styles.imageFlex}>
-          {post.post.images.length === 0 ? (
+          {post.post.images.length < 2 ? (
             post.post.images.map((image: any) => {
               return (
                 <div key={post.post.id} className={styles.imageWrapper}>
