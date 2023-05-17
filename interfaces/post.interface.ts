@@ -10,5 +10,6 @@ export interface Post {
     images: Array<string>,
     imageSlider: string,
     dateString: string,
-    id: number
+    id: number,
+    type: string
 }

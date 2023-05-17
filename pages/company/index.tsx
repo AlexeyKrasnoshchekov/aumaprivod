@@ -8,8 +8,24 @@ import { RiArrowRightSFill } from 'react-icons/ri';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Company({ posts }: any): JSX.Element {
+  const [isConsultation, setIsConsultation] = useState(false);
   const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
+  const router = useRouter();
+  const scrollTargetElementRef = useRef<HTMLDivElement | null>(null);
   // const sortedPosts = posts.sort((a: Post, b: Post) => b.id - a.id);
+
+  useEffect(() => {
+    console.log('router.asPath',router.asPath);
+    router.asPath === '/company#consultation' && setIsConsultation(true);
+  }, []);
+
+  useEffect(() => {
+    console.log('isConsultation',isConsultation);
+    // router.push('/company');
+    scrollTargetElementRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // router.url = '/company';
+  }, [isConsultation, router]);
+
   return (
     <>
       <Head>
@@ -42,7 +58,11 @@ function Company({ posts }: any): JSX.Element {
 
               {posts &&
                 posts.map((post: Post) => (
-                  <div key={post.id} className={styles.newsWrapper} style={{maxWidth: '300px'}}>
+                  <div
+                    key={post.id}
+                    className={styles.newsWrapper}
+                    style={{ maxWidth: '300px' }}
+                  >
                     {post.images.length > 0 && (
                       <div className={styles.newsImageWrapper}>
                         <Image
@@ -204,7 +224,7 @@ function Company({ posts }: any): JSX.Element {
           (3462) 236-233, 236-234, 236-299<br></br>Шатов Владимир – сервисный
           инженер +7 922 7986340, г. Сургут.<br></br>Горынин Юрий - сервисный инженер +7 913 6187653, г. Омск.
         </p> */}
-            <div className={styles.consWrapper}>
+            <div className={styles.consWrapper} ref={scrollTargetElementRef}>
               <p className={styles.parag}>(3462) 236-233, 236-234, 236-299</p>
               <p className={styles.parag}>
                 Шатов Владимир – сервисный инженер +7 922 7986340, г. Сургут.
@@ -241,6 +261,8 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import { Post, Posts } from '@/interfaces/post.interface';
 import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/router';
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'news.json');
   const jsonData = await fsPromises.readFile(filePath);

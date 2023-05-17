@@ -20,7 +20,10 @@ const imagesCarousel = [
   '/images/temperature.png',
 ];
 
-function Home({ posts, className, ...props }: any): JSX.Element {
+function Home({ posts,service,className, ...props }: any): JSX.Element {
+
+  console.log('service',service);
+  console.log('posts',posts);
   return (
     <>
       <Head>
@@ -125,7 +128,8 @@ function Home({ posts, className, ...props }: any): JSX.Element {
             </h4>
           </Link>
           {posts &&
-            posts.map((post: Post) => (
+            posts.map((post: Post) => 
+              // {post.type === 'sales' && 
               <div key={post.id} className={styles.newsTitleWrapper}>
                 <h5 className={styles.newsTitle1}>
                   <Link href={`/news/${post.id}`}>
@@ -134,7 +138,8 @@ function Home({ posts, className, ...props }: any): JSX.Element {
                 </h5>
                 <span>{post.dateString}</span>
               </div>
-            ))}
+              // }
+            )}
         </div>
         <div className={styles.bodyCompany}>
           <p className={styles.textMain}>
@@ -157,6 +162,33 @@ function Home({ posts, className, ...props }: any): JSX.Element {
             позволяет выдерживать уровень цен конкурентный с российской
             продукцией.
           </p>
+        </div>
+        <div className={styles.bodyNews}>
+          <Link href={'/company/#consultation'}>
+            <h4
+              className={styles.newsHeader}
+              style={{
+                fontSize: '1.2rem',
+                margin: '0',
+                textTransform: 'uppercase',
+              }}
+            >
+              Сервис 
+            </h4>
+          </Link>
+          {service &&
+            service.map((post: Post) => 
+              // {post.type === 'service' && 
+              <div key={post.id} className={styles.newsTitleWrapper}>
+                <h5 className={styles.newsTitle1}>
+                  <Link href={`/news/${post.id}`}>
+                    {post.titleShort ? post.titleShort : post.title}
+                  </Link>
+                </h5>
+                <span>{post.dateString}</span>
+              </div>
+              // }
+            )}
         </div>
       </div>
     </>
@@ -216,13 +248,22 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = await JSON.parse(jsonData.toString());
 
-  let convData = { posts: [] };
+  let convData = { posts: [], service: [] };
 
-  convData.posts = objectData.posts
+  const filteredSales = objectData.posts.filter((post:any) => post.type === 'sales');
+  const filteredService = objectData.posts.filter((post:any) => post.type === 'service');
+
+  convData.service = filteredService;
+    // .sort((a: Post, b: Post) => {
+    //   return new Date(b.date).getTime() - new Date(a.date).getTime();
+    // })
+    // .slice(filteredService.length - 3, filteredService.length - 1);
+    
+  convData.posts = filteredSales
     .sort((a: Post, b: Post) => {
       return new Date(b.date).getTime() - new Date(a.date).getTime();
     })
-    .slice(objectData.posts.length - 3, objectData.posts.length - 1);
+    .slice(filteredSales.length - 3, filteredSales.length - 1);
 
   return {
     props: convData,
