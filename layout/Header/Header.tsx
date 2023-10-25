@@ -37,7 +37,7 @@ const Header = ({ className, ...props }: HeaderProps) => {
             </a>
           </div>
         </div>
-        <div className={styles.headerRight}>Электроприводы AUMA</div>
+        <div className={styles.headerRight}>Электроприводы АУМА</div>
         <div className={styles.headerMenu}>
           <Link
             href={'/company'}

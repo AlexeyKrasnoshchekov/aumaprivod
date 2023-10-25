@@ -37,7 +37,7 @@ function Klin(): JSX.Element {
             <div className={styles.left80}>
               <h2 className={styles.title}>Цилиндрические редукторы GST</h2>
               <p className={styles.text}>
-                Цилиндрические редукторы AUMA используются для управления
+                Цилиндрические редукторы АУМА используются для управления
                 многооборотной арматурой (например, задвижки, клапаны).
               </p>
               <h3 className={styles.title}>

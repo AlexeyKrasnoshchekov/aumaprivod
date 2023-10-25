@@ -23,8 +23,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/mnogo.png'}
                 alt="МНОГООБОРОТНЫЕ ПРИВОДЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -33,8 +33,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/nepoln.png'}
                 alt="НЕПОЛНООБОРОТНЫЕ ПИВОДЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -43,8 +43,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/pryamo.png'}
                 alt="ПРЯМОХОДНЫЕ ПРИВОДЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -53,8 +53,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/rychag.png'}
                 alt="РЫЧАЖНЫЕ ПРИВОДЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -63,8 +63,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/nepoln_red.png'}
                 alt="НЕПОЛНООБОРОТНЫЕ РЕДУКТОРЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -73,8 +73,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/mnogo_red.png'}
                 alt="МНОГООБОРОТНЫЕ РЕДУКТОРЫ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -83,8 +83,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/controls.png'}
                 alt="СРЕДСТВА УПРАВЛЕНИЯ"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}
@@ -93,8 +93,8 @@ const Card = ({
               <Image
                 src={'/images/privod_cards/rychag_red.png'}
                 alt="Рычажные редукторы"
-                width={isBigScreen ? 100 : 80}
-                height={isBigScreen ? 100 : 80}
+                width={isBigScreen ? 120 : 90}
+                height={isBigScreen ? 120 : 90}
               />
             </span>
           )}

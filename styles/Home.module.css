@@ -4,13 +4,13 @@
   width: 100%;
   /* min-height: calc(100vh - 16.85rem); */
   /* outline: 2px solid blue; */
-  grid-template-columns: 17% 66% 17%;
+  grid-template-columns: 30% 70%;
   grid-template-rows: auto;
   grid-template-areas: 
-  "bodyLeft bodyCenter bodyRight";
+  "bodyCenter bodyLeft";
   /* outline: 1px solid blue; */
   /* padding: 0 3rem; */
-  
+  margin-bottom: 3rem;
 }
 
 /* .carousel-root {
@@ -19,8 +19,6 @@
 } */
 .slideMain {
 height: 350px;
-display: flex;
-justify-content: flex-end;
 }
 .bodyInner {
   display: flex;
@@ -78,7 +76,7 @@ justify-content: flex-end;
 .image {
   position: relative;
   object-fit: cover;
-  /* max-width: 65%; */
+  margin-bottom: 20px;
 }
 .bodyLeft {
   grid-area: bodyLeft;
@@ -86,11 +84,16 @@ justify-content: flex-end;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-
+  margin-left: 3rem;
+}
+.bodyLeftTop, .bodyLeftBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .bodyCenter {
   grid-area: bodyCenter;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 
 }
 .bodyRight {
@@ -132,19 +135,21 @@ background-color: #186fb1;
 
 @media (min-width: 1400px) {
 .bodyWrapper {
-  padding-top: calc(17% - 15rem);
+  padding-top: calc(17% - 14rem);
   /* grid-template-columns: 27.5vw auto; */
+  margin-bottom: 4rem;
 }
-
 
 .slideMain {
-  /* max-width: 39rem; */
-  height: 32rem;
+height: 470px;
 }
-.bodyLeft,.bodyRight {
-  padding-bottom: 2.5rem;
 
-}
+
+/* .carousel {  
+  height: 500px;
+  width: 505px;
+} */
+
 .cards {
   margin-top: 3rem;
   margin-bottom: 4rem;
