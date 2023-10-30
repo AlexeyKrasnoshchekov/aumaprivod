@@ -64,14 +64,14 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/mnogo/1.5.png'}
                 alt="Взрывозащищенные электроприводы SAEx и SAREx"
-                width={250}
-                height={250}
+                width={256}
+                height={240}
               />
               <Image
                 src={'/images/mnogo/5.png'}
                 alt="Взрывозащищенные электроприводы SAEx и SAREx"
-                width={250}
-                height={250}
+                width={240}
+                height={240}
               />
             </div>
             <h3 className={styles.title}>Особенности конструкции:</h3>

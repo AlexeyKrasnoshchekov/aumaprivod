@@ -30,9 +30,15 @@ function Klin(): JSX.Element {
           Основная идея встроенных средств управления приводом, а имено -
           снижение временных затрат и стоимости для конечного пользователя на
           этапе планирования, установки и подключения, по-прежнему остается
-          актуальной В результате многие заказчики убедились в экономических
-          преимуществах Таким образом, продажим приводов со встроенными
+          актуальной. В результате многие заказчики убедились в экономических
+          преимуществах. Таким образом, продажи приводов со встроенными
           средствами управления постоянно растут.
+        </p>
+        <p className={styles.text}>
+          Система управления обменивается с приводом только командами управления
+          и сигналами обратной связи. Отключение электродвигателя осуществляется
+          незамедлительно. Электроприводы AUMA могут быть оснащены блоками
+          управления AM или AC.
         </p>
         <p className={styles.text}>
           АUМА МАТIC АМ является наиболее эффективным с ценовой точки зрения
@@ -44,14 +50,14 @@ function Klin(): JSX.Element {
         {/* <h2 className={styles.title}>Многооборотные приводы SA и SAR</h2> */}
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <Link href={'/prod/nepoln/1'}>
+            <Link href={'/prod/controls/1'}>
               <h2 className={styles.title}>Блок управления AUMATIC АС</h2>
             </Link>
             <Image
               src={'/images/controls/1.png'}
               alt="Блок управления AUMATIC АС"
-              width={200}
-              height={161}
+              width={189}
+              height={150}
             />
             <p className={styles.text}>
               Блок управления AUMATIC c микроконтроллером представляет собой 4-е
@@ -62,14 +68,14 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <Link href={'/prod/nepoln/2'}>
+            <Link href={'/prod/controls/2'}>
               <h2 className={styles.title}>Блок управления AUMA MATIC AM</h2>
             </Link>
             <Image
               src={'/images/controls/2.png'}
               alt="Блок управления AUMA MATIC AM"
-              width={160}
-              height={150}
+              width={190}
+              height={130}
             />
             <p className={styles.text}>
               AUMA MATIC АМ является наиболее эффективным с ценовой точки зрения
@@ -82,14 +88,14 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <Link href={'/prod/nepoln/3'}>
+            <Link href={'/prod/controls/3'}>
               <h2 className={styles.title}>Мастер-станция SIMA</h2>
             </Link>
             <Image
               src={'/images/controls/3.png'}
               alt="Мастер-станция SIMA"
-              width={150}
-              height={180}
+              width={350}
+              height={240}
             />
             <p className={styles.text}>
               Мастер станция SIMA имеет модульную конструкцию, основанную на
@@ -103,7 +109,7 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <Link href={'/prod/nepoln/4'}>
+            <Link href={'/prod/controls/4'}>
               <h2 className={styles.title}>
                 Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC
                 (ACExC)
@@ -112,8 +118,8 @@ function Klin(): JSX.Element {
             <Image
               src={'/images/controls/4.png'}
               alt="Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC (ACExC)"
-              width={150}
-              height={150}
+              width={130}
+              height={240}
             />
             <p className={styles.text}>
               Оглядываясь на 50 летний опыт, АУМА обрела множество
@@ -126,7 +132,7 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-            <Link href={'/prod/nepoln/5'}>
+            <Link href={'/prod/controls/5'}>
               <h2 className={styles.title}>
                 Блоки управления AC SIL и ACEx SIL
               </h2>
@@ -134,8 +140,8 @@ function Klin(): JSX.Element {
             <Image
               src={'/images/controls/5.png'}
               alt="Блоки управления AC SIL и ACEx SIL"
-              width={250}
-              height={190}
+              width={204}
+              height={153}
             />
             <p className={styles.text}>
               В соответствии с МЭК 61508 / МЭК 61511, для самых высоких
@@ -149,14 +155,14 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-            <Link href={'/prod/nepoln/6'}>
+            <Link href={'/prod/controls/6'}>
               <h2 className={styles.title}>Цифровые шины</h2>
             </Link>
             <Image
               src={'/images/controls/6.png'}
               alt="Цифровые шины"
-              width={250}
-              height={205}
+              width={192}
+              height={120}
             />
             <p className={styles.text}>
               Системы полевых шин все чаще используются для связи

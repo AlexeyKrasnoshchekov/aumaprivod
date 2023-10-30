@@ -47,8 +47,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/controls/2.png'}
                 alt="Блок управления AUMA MATIC AM"
-                width={260}
-                height={250}
+                width={470}
+                height={317}
               />
               <h3 className={styles.title}>Особенности конструкции:</h3>
               <ul className={styles.text}>

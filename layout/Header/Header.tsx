@@ -70,6 +70,16 @@ const Header = ({ className, ...props }: HeaderProps) => {
             <div className={styles.headerMenuItem}>Документация</div>
           </Link>
           <Link
+            href={'/service'}
+            style={{
+              backgroundColor: router.pathname.includes('/service')
+                ? '#3A3A3A'
+                : '#006EAB',
+            }}
+          >
+            <div className={styles.headerMenuItem}>Сервис</div>
+          </Link>
+          <Link
             href={'/contacts'}
             style={{
               backgroundColor: router.pathname.includes('/contacts')

@@ -48,8 +48,8 @@ function Klin(): JSX.Element {
             <Image
               src={'/images/mnogo_red/4.png'}
               alt="Концевые выключатели WSH"
-              width={230}
-              height={280}
+              width={560}
+              height={368}
             />
             <h3 className={styles.title}>Функции:</h3>
             <ul className={styles.text}>

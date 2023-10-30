@@ -59,8 +59,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/controls/4.png'}
                 alt="Взрывозащищенные блоки управления AUMA MATIC (AMExC) и AUMATIC (ACExC)"
-                width={220}
-                height={270}
+                width={262}
+                height={480}
               />
             </div>
           </div>

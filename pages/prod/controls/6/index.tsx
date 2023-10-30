@@ -58,8 +58,8 @@ function Klin(): JSX.Element {
               <Image
               src={'/images/controls/6.png'}
               alt="Цифровые шины"
-              width={350}
-              height={305}
+              width={480}
+              height={298}
             />
               <h3 className={styles.title}>
                 Цифровые интерфейсы для AUMATIC АС:

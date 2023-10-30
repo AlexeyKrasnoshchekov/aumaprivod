@@ -130,7 +130,7 @@ function Products(): JSX.Element {
               </div>
             </div>
           </div>
-          <Link href={'/'}>
+          <Link href={'/images/docs/oprosniy_list.xls'}>
             <h4 className={styles.title}>Скачать опросный лист</h4>
           </Link>
 

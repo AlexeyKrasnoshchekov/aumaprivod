@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
 import Head from 'next/head';
 
-
 function Klin(): JSX.Element {
   return (
     <>
@@ -29,6 +28,17 @@ function Klin(): JSX.Element {
           АУМА.
         </p>
         <p className={styles.text}>
+          Многооборотные приводы передают крутящий момент на арматуру за один
+          полный оборот, и в соответствии со стандартом ISO 5210 способны
+          выдерживать осевую нагрузку.
+        </p>
+        <p className={styles.text}>
+          Электроприводы предлагаются в общепромышленном и взрывозащищенном
+          исполнениях. Подходят для применения в энергетике, водной
+          промышленности, нефтегазовой отрасли, также предлагаются компактные
+          приводы АУМА для судостроения.
+        </p>
+        <p className={styles.text}>
           Существует много версий для отсечной работы SA, или для регулирующей
           работы SAR, или для применения в потенциально взрывоопасных зонах
           (SAEx или SAREx).
@@ -42,8 +52,8 @@ function Klin(): JSX.Element {
             <Image
               src={'/images/mnogo/1.1.png'}
               alt="Многооборотные приводы SA и SAR"
-              width={200}
-              height={161}
+              width={180}
+              height={145}
             />
             <p className={styles.text}>
               Общепромышленные приводы SA/SAR применяются в водном хозяйстве,
@@ -77,7 +87,9 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-          <Link href={'/prod/mnogo/3'}><h2 className={styles.title}>Комбинации с редукторами</h2></Link>
+            <Link href={'/prod/mnogo/3'}>
+              <h2 className={styles.title}>Комбинации с редукторами</h2>
+            </Link>
             <Image
               src={'/images/mnogo/2.2.png'}
               alt="Комбинации с редукторами"
@@ -92,9 +104,11 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-          <Link href={'/prod/mnogo/4'}><h2 className={styles.title}>
-              Приводы арматуры SV для корабельной промышленности
-            </h2></Link>
+            <Link href={'/prod/mnogo/4'}>
+              <h2 className={styles.title}>
+                Приводы арматуры SV для корабельной промышленности
+              </h2>
+            </Link>
             <Image
               src={'/images/mnogo/2.3.png'}
               alt="Приводы арматуры SV для корабельной промышленности"
@@ -111,12 +125,14 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-          <Link href={'/prod/mnogo/5'}><h2 className={styles.title}>Электроприводы SAV и SARV с ACV</h2></Link>
+            <Link href={'/prod/mnogo/5'}>
+              <h2 className={styles.title}>Электроприводы SAV и SARV с ACV</h2>
+            </Link>
             <Image
               src={'/images/mnogo/3.1.png'}
               alt="Электроприводы SAV и SARV с ACV"
-              width={200}
-              height={160}
+              width={190}
+              height={153}
             />
             <p className={styles.text}>
               Электроприводы SAV .2 для режима Открыть-Закрыть и SARV .2 для
@@ -128,12 +144,14 @@ function Klin(): JSX.Element {
             </p>
           </div>
           <div className={styles.right50}>
-          <Link href={'/prod/mnogo/6'}><h2 className={styles.title}>Электроприводы SA-UW и SAR-UW</h2></Link>
+            <Link href={'/prod/mnogo/6'}>
+              <h2 className={styles.title}>Электроприводы SA-UW и SAR-UW</h2>
+            </Link>
             <Image
               src={'/images/mnogo/3.2.png'}
               alt="Электроприводы SA-UW и SAR-UW"
-              width={200}
-              height={205}
+              width={190}
+              height={195}
             />
             <p className={styles.text}>
               Система уплотнений в сочетании с прекрасными свойствами защиты от
@@ -147,14 +165,16 @@ function Klin(): JSX.Element {
         </div>
         <div className={styles.middleWrapper}>
           <div className={styles.left50}>
-          <Link href={'/prod/mnogo/7'}><h2 className={styles.title}>
-              Электропривод с изменяемой скоростью AUMA SEVEN
-            </h2></Link>
+            <Link href={'/prod/mnogo/7'}>
+              <h2 className={styles.title}>
+                Электропривод с изменяемой скоростью AUMA SEVEN
+              </h2>
+            </Link>
             <Image
               src={'/images/mnogo/4.png'}
               alt="Электропривод с изменяемой скоростью AUMA SEVEN"
-              width={200}
-              height={180}
+              width={170}
+              height={150}
             />
             <p className={styles.text}>
               Данный электропривод оснащен частотным преобразователем, который

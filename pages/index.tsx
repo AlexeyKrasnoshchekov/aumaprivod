@@ -23,6 +23,9 @@ const imagesCarouselLarge = [
 function Home({ posts, service, className, ...props }: any): JSX.Element {
   const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
 
+  let postsPub = [posts[0]];
+  let servicePub = [service[0]];
+
   // console.log('service', service);
   // console.log('posts', posts);
   return (
@@ -134,8 +137,8 @@ function Home({ posts, service, className, ...props }: any): JSX.Element {
               Новости
             </h4>
           </Link>
-          {posts &&
-            posts.map(
+          {postsPub &&
+            postsPub.map(
               (post: Post) => (
                 // {post.type === 'sales' &&
                 <div key={post.id} className={styles.newsTitleWrapper}>
@@ -157,23 +160,18 @@ function Home({ posts, service, className, ...props }: any): JSX.Element {
             компании АУМА
           </p>
           <p className={styles.text}>
-            Многолетний опыт работы с российскими и зарубежными производителями
+            &nbsp;&nbsp;Многолетний опыт работы с российскими и зарубежными производителями
             арматуры позволяет комплектовать оборудованием АУМА все типы
             исполнительных устройств. Для быстрого подбора существуют типовые
             таблицы комплектации с арматурой. Оборудование имеет модульную
             конструкцию, которая позволяет оптимально приспосабливать приводы к
-            конкретным условиям эксплуатации.
-          </p>
-          <p className={styles.text}>
-            Продукция компании АУМА имеет высокий уровень технического
+            конкретным условиям эксплуатации. Продукция компании АУМА имеет высокий уровень технического
             оснащения и соответствует международно-признанным стандартам
-            качества. При этом ценовая политика для крупных потребителей
-            позволяет выдерживать уровень цен конкурентный с российской
-            продукцией.
+            качества.
           </p>
         </div>
         <div className={styles.bodyNews}>
-          <Link href={'/company#consultation'}>
+          <Link href={'/service'}>
             <h4
               className={styles.newsHeader}
               style={{
@@ -185,8 +183,8 @@ function Home({ posts, service, className, ...props }: any): JSX.Element {
               Сервис
             </h4>
           </Link>
-          {service &&
-            service.map(
+          {servicePub &&
+            servicePub.map(
               (post: Post) => (
                 // {post.type === 'service' &&
                 <div key={post.id} className={styles.newsTitleWrapper}>

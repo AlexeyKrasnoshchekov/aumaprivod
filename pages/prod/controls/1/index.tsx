@@ -59,8 +59,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/controls/1.png'}
                 alt="Блок управления AUMATIC АС"
-                width={300}
-                height={261}
+                width={190}
+                height={150}
               />
               <h3 className={styles.title}>Особенности конструкции:</h3>
               <ul className={styles.text}>

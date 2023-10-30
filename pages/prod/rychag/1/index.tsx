@@ -43,8 +43,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/rychag/1.png'}
                 alt="Рычажные приводы SQF 05.2 - SQF 14.2"
-                width={270}
-                height={250}
+                width={171}
+                height={150}
               />
               <h3 className={styles.title}>Особенности конструкции:</h3>
               <ul className={styles.text}>

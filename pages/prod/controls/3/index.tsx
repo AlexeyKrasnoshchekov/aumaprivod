@@ -50,8 +50,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/controls/3.png'}
                 alt="Мастер-станция SIMA"
-                width={250}
-                height={280}
+                width={580}
+                height={405}
               />
               <h3 className={styles.title}>Особенности конструкции:</h3>
               <ul className={styles.text}>

@@ -61,8 +61,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/mnogo/2.3.png'}
                 alt="Приводы арматуры SV для корабельной промышленности"
-                width={250}
-                height={250}
+                width={200}
+                height={200}
               />
               <h3 className={styles.title}>Особенности конструкции:</h3>
               <ul className={styles.text}>

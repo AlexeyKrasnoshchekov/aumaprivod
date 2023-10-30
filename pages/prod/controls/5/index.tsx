@@ -66,8 +66,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/controls/5.png'}
                 alt="Блоки управления AC SIL и ACEx SIL"
-                width={300}
-                height={240}
+                width={512}
+                height={384}
               />
               <h3 className={styles.title}>Технические характеристики:</h3>
               <ul className={styles.text}>

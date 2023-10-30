@@ -54,8 +54,8 @@ function Klin(): JSX.Element {
               <Image
                 src={'/images/mnogo/1.1.png'}
                 alt="Многооборотные приводы SA и SAR"
-                width={270}
-                height={240}
+                width={360}
+                height={290}
               />
               <h3 className={styles.title}>Технические характеристики SAR:</h3>
               <ul className={styles.text}>

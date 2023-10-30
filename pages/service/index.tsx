@@ -2,27 +2,30 @@ import Head from 'next/head';
 import Image from 'next/image';
 import cn from 'classnames';
 import { useMediaQuery } from 'react-responsive';
-import styles from './Company.module.css';
+import styles from './Service.module.css';
 import { withLayout } from '@/layout/Layout';
 import { RiArrowRightSFill } from 'react-icons/ri';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-function Company({ posts }: any): JSX.Element {
+function Service({ service }: any): JSX.Element {
   // const [isConsultation, setIsConsultation] = useState(false);
   const isBigScreen = useMediaQuery({ query: '(min-width: 1400px)' });
   // const router = useRouter();
   // const scrollTargetElementRef = useRef<HTMLDivElement | null>(null);
-  // const sortedPosts = posts.sort((a: Post, b: Post) => b.id - a.id);
+  // const sortedservice = service.sort((a: Post, b: Post) => b.id - a.id);
 
   // useEffect(() => {
-  //   console.log('router.asPath',router.asPath);
-  //   router.asPath === '/company#consultation' ? setIsConsultation(true) : setIsConsultation(false);
+  //   console.log('router.asPath', router.asPath);
+  //   router.asPath === '/company#consultation'
+  //     ? setIsConsultation(true)
+  //     : setIsConsultation(false);
   // }, []);
 
   // useEffect(() => {
-  //   console.log('isConsultation',isConsultation);
+  //   // console.log('isConsultation', isConsultation);
   //   // router.push('/company');
-  //   isConsultation && scrollTargetElementRef.current?.scrollIntoView({ behavior: 'smooth' });
+  //   isConsultation &&
+  //     scrollTargetElementRef.current?.scrollIntoView({ behavior: 'smooth' });
   //   // router.url = '/company';
   // }, [isConsultation, router]);
 
@@ -35,11 +38,11 @@ function Company({ posts }: any): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.wrapper}>
-        <h4 className={styles.titleMain}>
+        {/* <h4 className={styles.titleMain}>
           Компания АумаПриводСервис с 2007 года занимается продажами,
           сервисным обслуживанием и технической поддержкой оборудования компании
           АУМА
-        </h4>
+        </h4> */}
         <div className={styles.innerWrapper}>
           <div className={styles.left}>
             <div className={styles.bodyNews}>
@@ -56,8 +59,8 @@ function Company({ posts }: any): JSX.Element {
                 </h4>
               </Link>
 
-              {posts &&
-                posts.map((post: Post) => (
+              {service &&
+                service.map((post: Post) => (
                   <div
                     key={post.id}
                     className={styles.newsWrapper}
@@ -87,67 +90,17 @@ function Company({ posts }: any): JSX.Element {
             </div>
           </div>
           <div className={styles.right}>
-            <h4
+            {/* <h4
+              className={styles.newsHeader}
               style={{
                 fontSize: '1.2rem',
                 margin: '0',
+                marginBottom: '1rem',
                 textTransform: 'uppercase',
               }}
             >
-              АУМА - это
-            </h4>
-            <ul className={styles.list}>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>
-                  Проверенная временем, надёжная модульная конструкция, с
-                  большим количеством взаимозаменяемых деталей и широкими
-                  возможностями модернизации
-                </span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>
-                  Электроприводы: многооборотные электроприводы,
-                  неполнооборотные электроприводы, рычажные электроприводы,
-                  прямоходные электроприводы
-                </span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>Исполнения: общепромышленное и взрывозащищенное</span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>Температурный диапазон от -60° до +170° (для АЭС)</span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>Степень защиты IP67, IP68</span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>
-                  Возможность управления по цифровым протоколам ModBus,
-                  ProfiBus, DeviceNet, Foundation Fieldbus
-                </span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>
-                  Редукторы: червячные редукторы, конические редукторы,
-                  цилиндрические редукторы
-                </span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>Блоки управления: AUMATIC, AUMA MATIC и VARIOMATIC</span>
-              </li>
-              <li className={styles.listItem}>
-                <RiArrowRightSFill className={styles.arrow} />
-                <span>Мастер-станции для электроприводов</span>
-              </li>
-            </ul>
+              Сервис
+            </h4> */}
             <div className={styles.imageWrapper}>
               <Image
                 src={'/images/about.jpg'}
@@ -159,13 +112,12 @@ function Company({ posts }: any): JSX.Element {
                 className={styles.image}
               />
             </div>
-            <h4>Сервис</h4>
             <p>
-              Сервисная служба компании АумаПриводСервис играет важную роль во всем процессе
-              послепродажного обслуживания приводов. Оперативное устранение
-              неисправностей, обеспечение бесперебойной работы – в этом и
-              заключается основная задача сервисного отдела. Это является и
-              залогом хорошей репутации компании.
+              Сервисная служба компании АумаПриводСервис играет важную роль во
+              всем процессе послепродажного обслуживания приводов. Оперативное
+              устранение неисправностей, обеспечение бесперебойной работы – в
+              этом и заключается основная задача сервисного отдела. Это является
+              и залогом хорошей репутации компании.
             </p>
             <p>
               Специалисты сервисного отдела готовы помочь Вам в решении любых
@@ -198,32 +150,15 @@ function Company({ posts }: any): JSX.Element {
                 Проведение пуско-наладочных работ
               </li>
             </ul>
-            <h4>Обучение</h4>
-            <p>Компания АумаПриводСервис предлагает специальную программу обучения.</p>
-            <p>
-              В рамках ее теоретической части проводятся презентации, предметом
-              которых является детальное описание продукции, услуг, а также
-              функциональных возможностей приводов и блоков управления, дается
-              подробный инструктаж по работе с оборудованием.
-            </p>
-            <p>
-              В рамках ее практической части проводятся сервис-тренинги,
-              обучающимся предоставляется возможность освоить принципы работы
-              оборудования в учебном классе.
-            </p>
             <h4>Консультация по телефону:</h4>
             <p className={styles.parag}>
-              Квалифицированные сервисные инженеры компании АумаПриводСервис готовы ответить
-              на все интересующие Вас вопросы и помочь разрешить возможные
-              проблемы в дистанционном режиме.
+              Квалифицированные сервисные инженеры компании АумаПриводСервис
+              готовы ответить на все интересующие Вас вопросы и помочь разрешить
+              возможные проблемы в дистанционном режиме.
             </p>
             <p>
               Консультация абсолютно бесплатная. Звоните. Всегда рады помочь.
             </p>
-            {/* <p className={styles.parag}>
-          (3462) 236-233, 236-234, 236-299<br></br>Шатов Владимир – сервисный
-          инженер +7 922 7986340, г. Сургут.<br></br>Горынин Юрий - сервисный инженер +7 913 6187653, г. Омск.
-        </p> */}
             <div className={styles.consWrapper}>
               <p className={styles.parag}>(3462) 236-233, 236-234, 236-299</p>
               <p className={styles.parag}>
@@ -244,10 +179,27 @@ function Company({ posts }: any): JSX.Element {
               Для получения подробной информации о характеристиках и техническом
               обслуживании приводов, просьба указывать их ком. номер.
             </p>
+            <h4>Обучение</h4>
             <p>
+              Компания АумаПриводСервис предлагает специальную программу
+              обучения.
+            </p>
+            <p>
+              В рамках ее теоретической части проводятся презентации, предметом
+              которых является детальное описание продукции, услуг, а также
+              функциональных возможностей приводов и блоков управления, дается
+              подробный инструктаж по работе с оборудованием.
+            </p>
+            <p>
+              В рамках ее практической части проводятся сервис-тренинги,
+              обучающимся предоставляется возможность освоить принципы работы
+              оборудования в учебном классе.
+            </p>
+
+            {/* <p>
               Более подробная информация содержится в брошюре «Сервисное
               обслуживание».
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -255,7 +207,7 @@ function Company({ posts }: any): JSX.Element {
   );
 }
 
-export default withLayout(Company);
+export default withLayout(Service);
 
 import fsPromises from 'fs/promises';
 import path from 'path';
@@ -268,13 +220,23 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = await JSON.parse(jsonData.toString());
 
-  let convData = { posts: [] };
+  let convData = { service: [] };
 
-  convData.posts = objectData.posts
+  const filteredService = objectData.posts.filter(
+    (post: any) => post.type === 'service'
+  );
+
+  convData.service = filteredService
     .sort((a: Post, b: Post) => {
       return b.id - a.id;
     })
-    .slice(0, 4);
+    .slice(0, 3);
+
+  // convData.posts = objectData.posts
+  //   .sort((a: Post, b: Post) => {
+  //     return b.id - a.id;
+  //   })
+  //   .slice(0, 4);
 
   return {
     props: convData,
