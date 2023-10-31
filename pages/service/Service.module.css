@@ -43,7 +43,8 @@
 .imageWrapper {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 .image {
     align-self: center;
@@ -58,6 +59,7 @@
     font-size: 1.3rem;
     font-weight: 500;
     color: white;
+    margin-bottom: 10px;
 }
 .consWrapper p {
     margin-bottom: 0.5rem;
