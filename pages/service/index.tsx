@@ -103,11 +103,11 @@ function Service({ service }: any): JSX.Element {
             </h4> */}
             <div className={styles.imageWrapper}>
               <Image
-                src={'/images/about.jpg'}
+                src={'/images/service.jpg'}
                 alt="фото сфер деятельности компании"
                 //   fill
-                width={isBigScreen ? 800 : 600}
-                height={isBigScreen ? 350 : 270}
+                width={isBigScreen ? 768 : 480}
+                height={isBigScreen ? 896 : 640}
                 quality={100}
                 className={styles.image}
               />
