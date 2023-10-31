@@ -101,17 +101,7 @@ function Service({ service }: any): JSX.Element {
             >
               Сервис
             </h4> */}
-            <div className={styles.imageWrapper}>
-              <Image
-                src={'/images/service.jpg'}
-                alt="фото сфер деятельности компании"
-                //   fill
-                width={isBigScreen ? 768 : 480}
-                height={isBigScreen ? 896 : 640}
-                quality={100}
-                className={styles.image}
-              />
-            </div>
+            
             <p>
               Сервисная служба компании АумаПриводСервис играет важную роль во
               всем процессе послепродажного обслуживания приводов. Оперативное
@@ -119,6 +109,17 @@ function Service({ service }: any): JSX.Element {
               этом и заключается основная задача сервисного отдела. Это является
               и залогом хорошей репутации компании.
             </p>
+            <div className={styles.imageWrapper}>
+              <Image
+                src={'/images/service1.jpg'}
+                alt="фото сфер деятельности компании"
+                //   fill
+                width={isBigScreen ? 600 : 430}
+                height={isBigScreen ? 750 : 536}
+                quality={100}
+                className={styles.image}
+              />
+            </div>
             <p>
               Специалисты сервисного отдела готовы помочь Вам в решении любых
               задач и предложить оптимальное решение
